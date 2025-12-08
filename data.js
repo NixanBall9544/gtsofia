@@ -616,4 +616,66 @@ const lines = {
             }
         ]
     },
+	"bus-10": {
+        number: "10",
+        type: "bus",
+        directions: [
+            {
+                name: "ДИМИТЪР МИЛЕНКОВ",
+                stops: [
+                    { name: "КВ. БУСМАНЦИ", onDemand: false },
+                    { name: "ДЕТСКИ ДОМ", onDemand: false },
+                    { name: "ТРЪНСКА МАХАЛА", onDemand: false },
+                    { name: "МОСТА НА Р. ИСКЪР КВ. АБДОВИЦА", onDemand: false },
+                    { name: "ЦЕНТЪР КВ. АБДОВИЦА", onDemand: false },
+                    { name: "КВ. АБДОВИЦА", onDemand: false },
+                    { name: "ЦЕНТЪР КВ. АБДОВИЦА", onDemand: false },
+                    { name: "УЛ. 5010", onDemand: false },
+                    { name: "УЛ. ПОРУЧИК ХР. ТОПРАКЧИЕВ", onDemand: false },
+                    { name: "УЛ. 5007", onDemand: false },
+                    { name: "МЕТРОСТАНЦИЯ СОФИЙСКА СВЕТА ГОРА", onDemand: false },
+                    { name: "УЛ. ПОДПОР. ЙОРДАН ТОДОРОВ", onDemand: false },
+                    { name: "ТЮФ", onDemand: false },
+                    { name: "ТЕХНОТЕСТ", onDemand: false },
+                    { name: "РАЗКЛОНА ЗА ЛЕТИЩЕТО", onDemand: false },
+                    { name: "Ж.К. ДРУЖБА 1", onDemand: false },
+                    { name: "БУЛ. КРЪСТЬО ПАСТУХОВ", onDemand: false },
+                    { name: "28-МИ ДКЦ", onDemand: false },
+                    { name: "28-МИ ПОЩЕНСКИ КЛОН", onDemand: false },
+					{ name: "ГАРА ИСКЪР", onDemand: false },
+					{ name: "НАЧАЛО КВ Д. МИЛЕНКОВ", onDemand: false },
+					{ name: "ПРОМИШЛЕНА ЗОНА", onDemand: false },
+					{ name: "КВ. ДИМИТЪР МИЛЕНКОВ", onDemand: false },
+                ]
+            },
+            {
+                name: "БУСМАНЦИ",
+                stops: [
+                    { name: "КВ. ДИМИТЪР МИЛЕНКОВ", onDemand: false },
+                    { name: "ПРОМИШЛЕНА ЗОНА", onDemand: false },
+                    { name: "НАЧАЛО КВ Д. МИЛЕНКОВ", onDemand: false },
+                    { name: "ГАРА ИСКЪР", onDemand: false },
+                    { name: "28-МИ ПОЩЕНСКИ КЛОН", onDemand: false },
+                    { name: "28-МИ ДКЦ", onDemand: false },
+                    { name: "БУЛ. КРЪСТЬО ПАСТУХОВ", onDemand: false },
+                    { name: "Ж.К. ДРУЖБА 1", onDemand: false },
+                    { name: "РАЗКЛОНА ЗА ЛЕТИЩЕТО", onDemand: false },
+                    { name: "ТЕХНОТЕСТ", onDemand: false },
+                    { name: "ТЮФ", onDemand: false },
+                    { name: "МЕТРОСТАНЦИЯ СОФИЙСКА СВЕТА ГОРА", onDemand: false },
+                    { name: "УЛ. ПОДПОР. ЙОРДАН ТОДОРОВ", onDemand: false },
+                    { name: "УЛ. 5007", onDemand: false },
+                    { name: "УЛ. ПОРУЧИК ХР. ТОПРАКЧИЕВ", onDemand: false },
+                    { name: "УЛ. 5010", onDemand: false },
+                    { name: "МОСТА НА Р. ИСКЪР КВ. АБДОВИЦА", onDemand: false },
+                    { name: "ЦЕНТЪР КВ. АБДОВИЦА", onDemand: false },
+					{ name: "КВ. АБДОВИЦА", onDemand: false },
+					{ name: "ЦЕНТЪР КВ. АБДОВИЦА", onDemand: false },
+					{ name: "ТРЪНСКА МАХАЛА", onDemand: false },
+					{ name: "ДЕТСКИ ДОМ", onDemand: false },
+					{ name: "КВ. БУСМАНЦИ", onDemand: false },
+                ]
+            }
+        ]
+    },
 };
