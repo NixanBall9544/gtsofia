@@ -90,7 +90,82 @@ const lines = {
             }
         ]
     },
+	
+"bus-У1": {
+        number: "У1",
+        type: "bus",
+        directions: [
+            {
+                name: "32 СУ СВ. КЛИМЕНТ ОХРИДСКИ",
+                stops: [
+                    { name: "БАЛКАНКАР АД", onDemand: false },
+                    { name: "Ж.К. КРАСНА ПОЛЯНА", onDemand: false },
+                    { name: "УЛ. ДОБРОТИЧ", onDemand: false },
+                    { name: "БУЛ. ВАРДАР", onDemand: false },
+                    { name: "БУЛ. АЛ. СТАМБОЛИЙСКИ", onDemand: false },
+                    { name: "МЕТРОСТАНЦИЯ ВАРДАР", onDemand: false },
+                    { name: "УЛ. ХАЙДУТ СИДЕР", onDemand: false },
+                    { name: "УЛ. ХАЙДУТ СИДЕР", onDemand: false },
+                    { name: "УЛ. ЗОГРАФСКИ МАНАСТИР", onDemand: false },
+                    { name: "УЛ. ЦАР СИМЕОН", onDemand: false },
+                    { name: "УЛ. ДИМИТЪР ПЕТКОВ", onDemand: false },
+                    { name: "УЛ. ОДРИН", onDemand: false },
+                    { name: "134 СУ ДИМЧО ДЕБЕЛЯНОВ", onDemand: false },
+                    { name: "18 СУ УИЛЯМ ГЛАДСТОН", onDemand: false },
+                    { name: "32 СУ СВ. КЛИМЕНТ ОХРИДСКИ", onDemand: false },
+                ]
+            },
+            {
+                name: "",
+                stops: [
+                    
+                ]
+            }
+        ]
+    },
 
+	"bus-У2": {
+        number: "У2",
+        type: "bus",
+        directions: [
+            {
+                name: "18 СУ УИЛЯМ ГЛАДСТОН",
+                stops: [
+                    { name: "Ж.К. ЛЮЛИН 5", onDemand: false },
+                    { name: "УЛ. ПОРУЧИК ГР. ЗАГОРСКИ", onDemand: false },
+                    { name: "УЛ. КАП. ВАСИЛ ДАНАДЖИЕВ", onDemand: false },
+                    { name: "МАГАЗИН ВИТОША", onDemand: false },
+                    { name: "ОБЩИНА ЛЮЛИН", onDemand: false },
+                    { name: "ТЪРГОВСКИ ЦЕНТЪР ЛЮЛИН", onDemand: false },
+                    { name: "МЕТРОСТАНЦИЯ ЛЮЛИН", onDemand: false },
+                    { name: "УЛ. ЛУИ ПАСТЬОР", onDemand: false },
+                    { name: "БУЛ. ЦАРИЦА ЙОАНА", onDemand: false },
+                    { name: "УЛ. ГОЦЕ ДЕЛЧЕВ", onDemand: false },
+                    { name: "БЛ. 135 Ж.К. ЛЮЛИН 10", onDemand: false },
+                    { name: "УЛ. ОРИОН", onDemand: false },
+                    { name: "ЗАПАДЕН ПАРК", onDemand: false },
+                    { name: "УЛ. ОРЯХОВО", onDemand: false },
+                    { name: "УЛ. ПЛОВДИВ", onDemand: false },
+					{ name: "НАДЛЕЗ НАДЕЖДА", onDemand: false },
+					{ name: "БУЛ. ГЕН. Н. СТОЛЕТОВ", onDemand: false },
+					{ name: "ПЕТА ГРАДСКА БОЛНИЦА", onDemand: false },
+					{ name: "БУЛ. КНЯГИНЯ МАРИЯ ЛУИЗА", onDemand: false },
+					{ name: "УЛ. ОХРИД", onDemand: false },
+					{ name: "УЛ. ОПЪЛЧЕНСКА", onDemand: false },
+					{ name: "46-ТО ОУ КОНСТАНТИН ФОТИНОВ", onDemand: false },
+					{ name: "32 СУ СВ. КЛИМЕНТ ОХРИДСКИ", onDemand: false },
+					{ name: "18 СУ УИЛЯМ ГЛАДСТОН", onDemand: false },
+                ]
+            },
+            {
+                name: "",
+                stops: [
+                    
+                ]
+            }
+        ]
+    },
+	
     "bus-3": {
         number: "3",
         type: "bus",
@@ -813,4 +888,5 @@ const lines = {
         ]
     },
 };
+
 
