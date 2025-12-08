@@ -62,7 +62,7 @@ body {
 .line-pill {
     width: 60px;
     height: 30px;
-    border-radius: 8px;
+    border-radius: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,3 +269,4 @@ body {
         height: 30px;  /* original height */
     }
 }
+
