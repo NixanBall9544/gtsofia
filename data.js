@@ -1893,6 +1893,87 @@ const lines = {
             }
         ]
     },
+	"bus-42": {
+        number: "42",
+        type: "bus",
+        directions: [
+            {
+                name: "УЛ. ТЪРНОВО",
+                stops: [
+{ name: "КРАЯ НА КВ. МИХАЙЛОВО", onDemand: false },
+{ name: "УЛ. КИТКАТА", onDemand: true },
+{ name: "УЛ. ТОПЛИКА", onDemand: true },
+{ name: "УЛ. ДАМЕ ГРУЕВ", onDemand: true },
+{ name: "УЛ. А. КОНСТАНТИНОВ", onDemand: false },
+{ name: "СТОПАНСТВО МИХАЙЛОВО", onDemand: true },
+{ name: "НАЧАЛО КВ. МИХАЙЛОВО", onDemand: true },
+{ name: "УЛ. РОДИНА", onDemand: true },
+{ name: "УЛ. СОЧИ", onDemand: false },
+{ name: "УЛ. СТРАНДЖА", onDemand: false },
+{ name: "ЦЕНТЪРА БАНКЯ", onDemand: false },
+{ name: "УЛ. БОР", onDemand: false },
+{ name: "СТАДИОНА БАНКЯ", onDemand: false },
+{ name: "УЛ. КОСМОНАВТ", onDemand: false },
+{ name: "КВ. ИЗГРЕВ", onDemand: false },
+{ name: "МАХАЛА ИВАНЯНЕ", onDemand: false },
+{ name: "КЕНДИ ООД", onDemand: false },
+{ name: "ХЛЕБОЗАВОДА", onDemand: false },
+{ name: "УЛ. СУХОДОЛСКИ ПЪТ", onDemand: false },
+{ name: "УЛ. БЪЛГАРСКИ ВОИН", onDemand: false },
+{ name: "УЛ. ДЕТЕЛИНА", onDemand: false },
+{ name: "ОКОЛОВРЪСТЕН ПЪТ", onDemand: false },
+{ name: "ПЪТЕН ВЪЗЕЛ ФИЛИПОВЦИ", onDemand: false },
+{ name: "УЛ. ПОРУЧИК ГР. ЗАГОРСКИ", onDemand: false },
+{ name: "УЛ. КАП. В. ДАНАДЖИЕВ", onDemand: false },
+{ name: "МАГАЗИН ВИТОША", onDemand: false },
+{ name: "ОБЩИНА ЛЮЛИН", onDemand: false },
+{ name: "ТЪРГОВСКИ ЦЕНТЪР ЛЮЛИН", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ЛЮЛИН", onDemand: false },
+{ name: "УЛ. ГЕН. НИКОЛА ГЕНЕВ", onDemand: false },
+{ name: "УЛ. ГЕН. АС. НИКОЛОВ", onDemand: false },
+{ name: "УЛ. ТЪРНОВО", onDemand: false }
+                ]
+            },
+            {
+                name: "КРАЯ НА МИХАЙЛОВО",
+                stops: [
+{ name: "УЛ. ТЪРНОВО", onDemand: false },
+{ name: "УЛ. ГЕН. АС. НИКОЛОВ", onDemand: false },
+{ name: "УЛ. ГЕН. НИКОЛА ГЕНЕВ", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ЛЮЛИН", onDemand: false },
+{ name: "ТЪРГОВСКИ ЦЕНТЪР ЛЮЛИН", onDemand: false },
+{ name: "ОБЩИНА ЛЮЛИН", onDemand: false },
+{ name: "МАГАЗИН ВИТОША", onDemand: false },
+{ name: "УЛ. КАП. В. ДАНАДЖИЕВ", onDemand: false },
+{ name: "УЛ. ПОРУЧИК ГР. ЗАГОРСКИ", onDemand: false },
+{ name: "ПЪТЕН ВЪЗЕЛ ФИЛИПОВЦИ", onDemand: false },
+{ name: "ОКОЛОВРЪСТЕН ПЪТ", onDemand: false },
+{ name: "УЛ. ДЕТЕЛИНА", onDemand: false },
+{ name: "УЛ. БЪЛГАРСКИ ВОИН", onDemand: false },
+{ name: "УЛ. СУХОДОЛСКИ ПЪТ", onDemand: false },
+{ name: "ХЛЕБОЗАВОДА", onDemand: false },
+{ name: "КЕНДИ ООД", onDemand: false },
+{ name: "МАХАЛА ИВАНЯНЕ", onDemand: false },
+{ name: "КВ. ИЗГРЕВ", onDemand: false },
+{ name: "УЛ. КОСМОНАВТ", onDemand: false },
+{ name: "СТАДИОНА БАНКЯ", onDemand: false },
+{ name: "УЛ. БОР", onDemand: false },
+{ name: "ЦЕНТЪРА БАНКЯ", onDemand: false },
+{ name: "УЛ. СТРАНДЖА", onDemand: false },
+{ name: "УЛ. СОЧИ", onDemand: false },
+{ name: "УЛ. РОДИНА", onDemand: true },
+{ name: "НАЧАЛО КВ. МИХАЙЛОВО", onDemand: true },
+{ name: "СТОПАНСТВО МИХАЙЛОВО", onDemand: true },
+{ name: "УЛ. А. КОНСТАНТИНОВ", onDemand: false },
+{ name: "УЛ. ДАМЕ ГРУЕВ", onDemand: true },
+{ name: "УЛ. ТОПЛИКА", onDemand: true },
+{ name: "УЛ. КИТКАТА", onDemand: true },
+{ name: "КРАЯ НА КВ. МИХАЙЛОВО", onDemand: false }
+]
+            }
+        ]
+    },
 };
+
 
 
