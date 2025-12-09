@@ -1839,58 +1839,5 @@ const lines = {
             }
         ]
     },
-	"bus-31": {
-        number: "31",
-        type: "bus",
-        directions: [
-            {
-                name: "ОБЕЛЯ",
-                stops: [
-  { name: "СЕЛО ГОЛЯНОВЦИ", onDemand: false },
-  { name: "НАЧАЛО С. ГОЛЯНОВЦИ", onDemand: false },
-  { name: "КРАЯ С. ЖИТЕН", onDemand: false },
-  { name: "СЕЛО ЖИТЕН", onDemand: false },
-  { name: "УЛ. МИНЗУХАР", onDemand: false },
-  { name: "НАЧАЛО С. ЖИТЕН", onDemand: false },
-  { name: "БИОМЕТ ЕООД", onDemand: true },
-  { name: "КРАЯ С. МРАМОР", onDemand: false },
-  { name: "СЕЛО МРАМОР", onDemand: false },
-  { name: "УЛ. ЗАХАРИ ЗОГРАФ", onDemand: false },
-  { name: "НАЧАЛО С. МРАМОР", onDemand: true },
-  { name: "ТИР ПАРКИНГ МРАМОР", onDemand: true },
-  { name: "ПРОМИШЛЕНА ЗОНА УЛ. ВАСИЛ ЛЕВСКИ", onDemand: true },
-  { name: "БЕТОНОВ ВЪЗЕЛ", onDemand: true },
-  { name: "Ж.К. ОБЕЛЯ-2", onDemand: false },
-  { name: "МЕТРОСТАНЦИЯ ОБЕЛЯ", onDemand: false },
-  { name: "УЛ. 2", onDemand: false },
-  { name: "УЛ. 9", onDemand: false },
-  { name: "КВ. ОБЕЛЯ", onDemand: false }
-                ]
-            },
-            {
-                name: "ГОЛЯНОВЦИ",
-                stops: [
-  { name: "КВ. ОБЕЛЯ", onDemand: false },
-  { name: "УЛ. 9", onDemand: false },
-  { name: "УЛ. 2", onDemand: false },
-  { name: "МЕТРОСТАНЦИЯ ОБЕЛЯ", onDemand: false },
-  { name: "Ж.К. ОБЕЛЯ-2", onDemand: false },
-  { name: "БЕТОНОВ ВЪЗЕЛ", onDemand: true },
-  { name: "ПРОМИШЛЕНА ЗОНА УЛ. ВАСИЛ ЛЕВСКИ", onDemand: true },
-  { name: "ТИР ПАРКИНГ МРАМОР", onDemand: true },
-  { name: "НАЧАЛО С. МРАМОР", onDemand: true },
-  { name: "УЛ. ЗАХАРИ ЗОГРАФ", onDemand: false },
-  { name: "СЕЛО МРАМОР", onDemand: false },
-  { name: "КРАЯ С. МРАМОР", onDemand: false },
-  { name: "БИОМЕТ ЕООД", onDemand: true },
-  { name: "НАЧАЛО С. ЖИТЕН", onDemand: false },
-  { name: "УЛ. МИНЗУХАР", onDemand: false },
-  { name: "СЕЛО ЖИТЕН", onDemand: false },
-  { name: "КРАЯ С. ЖИТЕН", onDemand: false },
-  { name: "НАЧАЛО С. ГОЛЯНОВЦИ", onDemand: false },
-  { name: "СЕЛО ГОЛЯНОВЦИ", onDemand: false }
-]
-            }
-        ]
-    },
 };
+
