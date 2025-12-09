@@ -1781,7 +1781,200 @@ const lines = {
             }
         ]
     },
+	"bus-30": {
+        number: "30",
+        type: "bus",
+        directions: [
+            {
+                name: "ОБЕЛЯ",
+                stops: [
+  { name: "СЕЛО БАЛША", onDemand: false },
+  { name: "УЛ. СТАРА ПЛАНИНА", onDemand: false },
+  { name: "ПО ЖЕЛАНИЕ", onDemand: true },
+  { name: "КМЕТСТВО БАЛША", onDemand: false },
+  { name: "МАНАСТИР СВ. ТЕОДОР СТРАТИЛАТ", onDemand: true },
+  { name: "КРАЯ С. ДОБРОСЛАВЦИ", onDemand: false },
+  { name: "ПАМЕТНИКА С. ДОБРОСЛАВЦИ", onDemand: false },
+  { name: "ПЛ. МЕГДАНА", onDemand: false },
+  { name: "НАЧАЛО С. ДОБРОСЛАВЦИ", onDemand: false },
+  { name: "КРАЯ С. МРАМОР", onDemand: false },
+  { name: "СЕЛО МРАМОР", onDemand: false },
+  { name: "УЛ. ЗАХАРИ ЗОГРАФ", onDemand: false },
+  { name: "НАЧАЛО С. МРАМОР", onDemand: true },
+  { name: "ТИР ПАРКИНГ МРАМОР", onDemand: true },
+  { name: "ПРОМИШЛЕНА ЗОНА УЛ. ВАСИЛ ЛЕВСКИ", onDemand: true },
+  { name: "БЕТОНОВ ВЪЗЕЛ", onDemand: true },
+  { name: "Ж.К. ОБЕЛЯ-2", onDemand: false },
+  { name: "МЕТРОСТАНЦИЯ ОБЕЛЯ", onDemand: false },
+  { name: "УЛ. 2", onDemand: false },
+  { name: "УЛ. 9", onDemand: false },
+  { name: "КВ. ОБЕЛЯ", onDemand: false }
+                ]
+            },
+            {
+                name: "БАЛША",
+                stops: [
+  { name: "КВ. ОБЕЛЯ", onDemand: false },
+  { name: "УЛ. 9", onDemand: false },
+  { name: "УЛ. 2", onDemand: false },
+  { name: "МЕТРОСТАНЦИЯ ОБЕЛЯ", onDemand: false },
+  { name: "Ж.К. ОБЕЛЯ-2", onDemand: false },
+  { name: "БЕТОНОВ ВЪЗЕЛ", onDemand: true },
+  { name: "ПРОМИШЛЕНА ЗОНА УЛ. ВАСИЛ ЛЕВСКИ", onDemand: true },
+  { name: "ТИР ПАРКИНГ МРАМОР", onDemand: true },
+  { name: "НАЧАЛО С. МРАМОР", onDemand: true },
+  { name: "УЛ. ЗАХАРИ ЗОГРАФ", onDemand: false },
+  { name: "СЕЛО МРАМОР", onDemand: false },
+  { name: "КРАЯ С. МРАМОР", onDemand: false },
+  { name: "НАЧАЛО С. ДОБРОСЛАВЦИ", onDemand: false },
+  { name: "ПЛ. МЕГДАНА", onDemand: false },
+  { name: "ПАМЕТНИКА С. ДОБРОСЛАВЦИ", onDemand: false },
+  { name: "КРАЯ С. ДОБРОСЛАВЦИ", onDemand: false },
+  { name: "МАНАСТИР СВ. ТЕОДОР СТРАТИЛАТ", onDemand: true },
+  { name: "КМЕТСТВО БАЛША", onDemand: false },
+  { name: "ПО ЖЕЛАНИЕ", onDemand: true },
+  { name: "УЛ. СТАРА ПЛАНИНА", onDemand: false },
+  { name: "СЕЛО БАЛША", onDemand: false }
+]
+            }
+        ]
+    },
+	"bus-31": {
+        number: "31",
+        type: "bus",
+        directions: [
+            {
+                name: "ОБЕЛЯ",
+                stops: [
+  { name: "СЕЛО ГОЛЯНОВЦИ", onDemand: false },
+  { name: "НАЧАЛО С. ГОЛЯНОВЦИ", onDemand: false },
+  { name: "КРАЯ С. ЖИТЕН", onDemand: false },
+  { name: "СЕЛО ЖИТЕН", onDemand: false },
+  { name: "УЛ. МИНЗУХАР", onDemand: false },
+  { name: "НАЧАЛО С. ЖИТЕН", onDemand: false },
+  { name: "БИОМЕТ ЕООД", onDemand: true },
+  { name: "КРАЯ С. МРАМОР", onDemand: false },
+  { name: "СЕЛО МРАМОР", onDemand: false },
+  { name: "УЛ. ЗАХАРИ ЗОГРАФ", onDemand: false },
+  { name: "НАЧАЛО С. МРАМОР", onDemand: true },
+  { name: "ТИР ПАРКИНГ МРАМОР", onDemand: true },
+  { name: "ПРОМИШЛЕНА ЗОНА УЛ. ВАСИЛ ЛЕВСКИ", onDemand: true },
+  { name: "БЕТОНОВ ВЪЗЕЛ", onDemand: true },
+  { name: "Ж.К. ОБЕЛЯ-2", onDemand: false },
+  { name: "МЕТРОСТАНЦИЯ ОБЕЛЯ", onDemand: false },
+  { name: "УЛ. 2", onDemand: false },
+  { name: "УЛ. 9", onDemand: false },
+  { name: "КВ. ОБЕЛЯ", onDemand: false }
+                ]
+            },
+            {
+                name: "ГОЛЯНОВЦИ",
+                stops: [
+  { name: "КВ. ОБЕЛЯ", onDemand: false },
+  { name: "УЛ. 9", onDemand: false },
+  { name: "УЛ. 2", onDemand: false },
+  { name: "МЕТРОСТАНЦИЯ ОБЕЛЯ", onDemand: false },
+  { name: "Ж.К. ОБЕЛЯ-2", onDemand: false },
+  { name: "БЕТОНОВ ВЪЗЕЛ", onDemand: true },
+  { name: "ПРОМИШЛЕНА ЗОНА УЛ. ВАСИЛ ЛЕВСКИ", onDemand: true },
+  { name: "ТИР ПАРКИНГ МРАМОР", onDemand: true },
+  { name: "НАЧАЛО С. МРАМОР", onDemand: true },
+  { name: "УЛ. ЗАХАРИ ЗОГРАФ", onDemand: false },
+  { name: "СЕЛО МРАМОР", onDemand: false },
+  { name: "КРАЯ С. МРАМОР", onDemand: false },
+  { name: "БИОМЕТ ЕООД", onDemand: true },
+  { name: "НАЧАЛО С. ЖИТЕН", onDemand: false },
+  { name: "УЛ. МИНЗУХАР", onDemand: false },
+  { name: "СЕЛО ЖИТЕН", onDemand: false },
+  { name: "КРАЯ С. ЖИТЕН", onDemand: false },
+  { name: "НАЧАЛО С. ГОЛЯНОВЦИ", onDemand: false },
+  { name: "СЕЛО ГОЛЯНОВЦИ", onDemand: false }
+]
+            }
+        ]
+    },
+	"bus-42": {
+        number: "42",
+        type: "bus",
+        directions: [
+            {
+                name: "УЛ. ТЪРНОВО (ЛЮЛИН 8)",
+                stops: [
+{ name: КРАЯ НА КВ. МИХАЙЛОВО, onDemand: false },
+{ name: УЛ. КИТКАТА, onDemand: true },
+{ name: УЛ. ТОПЛИКА, onDemand: true },
+{ name: УЛ. ДАМЕ ГРУЕВ, onDemand: true },
+{ name: УЛ. А. КОНСТАНТИНОВ, onDemand: false },
+{ name: СТОПАНСТВО МИХАЙЛОВО, onDemand: true },
+{ name: НАЧАЛО КВ. МИХАЙЛОВО, onDemand: true },
+{ name: УЛ. РОДИНА, onDemand: true },
+{ name: УЛ. СОЧИ, onDemand: false },
+{ name: УЛ. СТРАНДЖА, onDemand: false },
+{ name: ЦЕНТЪРА БАНКА, onDemand: false },
+{ name: УЛ. БОР, onDemand: false },
+{ name: СТАДИОНА БАНКА, onDemand: false },
+{ name: УЛ. КОСМОНАВТ, onDemand: false },
+{ name: КВ. ИЗГРЕВ, onDemand: false },
+{ name: МАХАЛА ИВАНЯНЕ, onDemand: false },
+{ name: КЕНДИ ООД, onDemand: false },
+{ name: ХЛЕБОЗАВОДА, onDemand: false },
+{ name: УЛ. СУХОДОЛСКИ ПЪТ, onDemand: false },
+{ name: УЛ. БЪЛГАРСКИ ВОИН, onDemand: false },
+{ name: УЛ. ДЕТЕЛИНА, onDemand: false },
+{ name: ОКОЛОВРЪСТЕН ПЪТ, onDemand: false },
+{ name: ПЪТЕН ВЪЗЕЛ ФИЛИПОВЦИ, onDemand: false },
+{ name: УЛ. ПОРУЧИК ГР. ЗАГОРСКИ, onDemand: false },
+{ name: УЛ. КАП. В. ДАНАДЖИЕВ, onDemand: false },
+{ name: МАГАЗИН ВИТОША, onDemand: false },
+{ name: ОБЩИНА ЛЮЛИН, onDemand: false },
+{ name: ТЪРГОВСКИ ЦЕНТЪР ЛЮЛИН, onDemand: false },
+{ name: МЕТРОСТАНЦИЯ ЛЮЛИН, onDemand: false },
+{ name: УЛ. ГЕН. НИКОЛА ГЕНЕВ, onDemand: false },
+{ name: УЛ. ГЕН. АС. НИКОЛОВ, onDemand: false },
+{ name: Ж.К. ЛЮЛИН-8, onDemand: false }
+                ]
+            },
+            {
+                name: "КРАЯ НА МИХАЙЛОВО",
+                stops: [
+{ name: Ж.К. ЛЮЛИН-8, onDemand: false },
+{ name: УЛ. ГЕН. АС. НИКОЛОВ, onDemand: false },
+{ name: УЛ. ГЕН. НИКОЛА ГЕНЕВ, onDemand: false },
+{ name: МЕТРОСТАНЦИЯ ЛЮЛИН, onDemand: false },
+{ name: ТЪРГОВСКИ ЦЕНТЪР ЛЮЛИН, onDemand: false },
+{ name: ОБЩИНА ЛЮЛИН, onDemand: false },
+{ name: МАГАЗИН ВИТОША, onDemand: false },
+{ name: УЛ. КАП. В. ДАНАДЖИЕВ, onDemand: false },
+{ name: УЛ. ПОРУЧИК ГР. ЗАГОРСКИ, onDemand: false },
+{ name: ПЪТЕН ВЪЗЕЛ ФИЛИПОВЦИ, onDemand: false },
+{ name: ОКОЛОВРЪСТЕН ПЪТ, onDemand: false },
+{ name: УЛ. ДЕТЕЛИНА, onDemand: false },
+{ name: УЛ. БЪЛГАРСКИ ВОИН, onDemand: false },
+{ name: УЛ. СУХОДОЛСКИ ПЪТ, onDemand: false },
+{ name: ХЛЕБОЗАВОДА, onDemand: false },
+{ name: КЕНДИ ООД, onDemand: false },
+{ name: МАХАЛА ИВАНЯНЕ, onDemand: false },
+{ name: КВ. ИЗГРЕВ, onDemand: false },
+{ name: УЛ. КОСМОНАВТ, onDemand: false },
+{ name: СТАДИОНА БАНКА, onDemand: false },
+{ name: УЛ. БОР, onDemand: false },
+{ name: ЦЕНТЪРА БАНКА, onDemand: false },
+{ name: УЛ. СТРАНДЖА, onDemand: false },
+{ name: УЛ. СОЧИ, onDemand: false },
+{ name: УЛ. РОДИНА, onDemand: true },
+{ name: НАЧАЛО КВ. МИХАЙЛОВО, onDemand: true },
+{ name: СТОПАНСТВО МИХАЙЛОВО, onDemand: true },
+{ name: УЛ. А. КОНСТАНТИНОВ, onDemand: false },
+{ name: УЛ. ДАМЕ ГРУЕВ, onDemand: true },
+{ name: УЛ. ТОПЛИКА, onDemand: true },
+{ name: УЛ. КИТКАТА, onDemand: true },
+{ name: КРАЯ НА КВ. МИХАЙЛОВО, onDemand: false }
+]
+            }
+        ]
+    },
 };
+
 
 
 
