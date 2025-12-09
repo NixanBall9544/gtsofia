@@ -262,6 +262,12 @@ body {
         padding: 6px 10px;
     }
 
+        .search {
+        font-size: 14px;         /* smaller text on small screens */
+        padding: 10px 12px;      /* more balanced padding */
+        width: 100%;             /* full-width search bar */
+    }
+
     .search {
         font-size: 14px;
         padding: 8px 10px;
@@ -276,6 +282,7 @@ body {
         height: 30px;  /* original height */
     }
 }
+
 
 
 
