@@ -1973,7 +1973,417 @@ const lines = {
             }
         ]
     },
+	"bus-X43": {
+        number: "X43",
+        type: "bus",
+        directions: [
+            {
+                name: "АВТОСТАНЦИЯ БАНКЯ",
+                stops: [
+{ name: "ПЛ. СВ. АЛЕКСАНДЪР НЕВСКИ", onDemand: false },
+{ name: "ПЛ. ВАСИЛ ЛЕВСКИ", onDemand: false },
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+{ name: "ПЛ. ЛЪВОВ МОСТ", onDemand: false },
+{ name: "БУЛ. ХРИСТО БОТЕВ", onDemand: false },
+{ name: "УЛ. ОПЪЛЧЕНСКА", onDemand: false },
+{ name: "БУЛ. К. ВЕЛИЧКОВ", onDemand: false },
+{ name: "УЛ. ОРЯХОВО", onDemand: false },
+{ name: "УЛ. ОРИОН", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ СЛИВНИЦА", onDemand: false },
+{ name: "НЕСТЛЕ - СОФИЯ", onDemand: false },
+{ name: "КВ. РЕПУБЛИКА", onDemand: false },
+{ name: "ХИПОДРУМА БАНКЯ", onDemand: true },
+{ name: "ГАРА ИВАНЯНЕ", onDemand: false },
+{ name: "СТАДИОНА БАНКЯ", onDemand: false },
+{ name: "ЦЕНТЪРА БАНКЯ", onDemand: false },
+{ name: "АВТОСТАНЦИЯ БАНКЯ", onDemand: false },
+                ]
+            },
+            {
+                name: "ПЛ. СВ. АЛЕКСАНДЪР НЕВСКИ",
+                stops: [
+{ name: "АВТОСТАНЦИЯ БАНКЯ", onDemand: false },
+{ name: "СТАДИОНА БАНКЯ", onDemand: false },
+{ name: "ГАРА ИВАНЯНЕ", onDemand: false },
+{ name: "ХИПОДРУМА БАНКЯ", onDemand: true },
+{ name: "КВ. РЕПУБЛИКА", onDemand: false },
+{ name: "НЕСТЛЕ - СОФИЯ", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ СЛИВНИЦА", onDemand: false },
+{ name: "УЛ. ОРИОН", onDemand: false },
+{ name: "УЛ. ОРЯХОВО", onDemand: false },
+{ name: "БУЛ. К. ВЕЛИЧКОВ", onDemand: false },
+{ name: "УЛ. ОПЪЛЧЕНСКА", onDemand: false },
+{ name: "БУЛ. ХРИСТО БОТЕВ", onDemand: false },
+{ name: "ПЛ. ЛЪВОВ МОСТ", onDemand: false },
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+{ name: "ПЛ. ВАСИЛ ЛЕВСКИ", onDemand: false },
+{ name: "ПЛ. СВ. АЛЕКСАНДЪР НЕВСКИ", onDemand: false },
+]
+            }
+        ]
+    },
+	"bus-44": {
+        number: "44",
+        type: "bus",
+        directions: [
+            {
+                name: "АВТОСТАНЦИЯ БАНКЯ",
+                stops: [
+{ name: "КВ. ИВАНЯНЕ", onDemand: false },
+{ name: "УЛ. МИЛЕНИУМ", onDemand: false },
+{ name: "УЛ. ПЕРУНИКА", onDemand: false },
+{ name: "КВ. ИЗГРЕВ", onDemand: false },
+{ name: "ГАРА ИВАНЯНЕ", onDemand: false },
+{ name: "ГРОБИЩЕН ПАРК БАНКЯ", onDemand: false },
+{ name: "РЕМОНТНА БАЗА", onDemand: false },
+{ name: "УЛ. ХИСАРЯ", onDemand: false },
+{ name: "УЛ. ХИСАРЯ", onDemand: false },
+{ name: "АВТОСТАНЦИЯ БАНКЯ", onDemand: false },
+                ]
+            },
+            {
+                name: "ИВАНЯНЕ",
+                stops: [
+{ name: "АВТОСТАНЦИЯ БАНКЯ", onDemand: false },
+{ name: "УЛ. ХИСАРЯ", onDemand: false },
+{ name: "РЕМОНТНА БАЗА", onDemand: false },
+{ name: "ГРОБИЩЕН ПАРК БАНКЯ", onDemand: true },
+{ name: "ГАРА ИВАНЯНЕ", onDemand: false },
+{ name: "КВ. ИЗГРЕВ", onDemand: false },
+{ name: "УЛ. ПЕРУНИКА", onDemand: false },
+{ name: "УЛ. МИЛЕНИУМ", onDemand: false },
+{ name: "КВ. ИВАНЯНЕ", onDemand: false },
+]
+            }
+        ]
+    },
+	"bus-46": {
+        number: "46",
+        type: "bus",
+        directions: [
+            {
+                name: "МАНАСТИР СВ. ПЕТКА ПАРАСКЕВА",
+                stops: [
+{ name: "АВТОСТАНЦИЯ БАНКЯ", onDemand: false },
+{ name: "ЦЕНТЪРА БАНКЯ", onDemand: false },
+{ name: "УЛ. УЧЕНИЧЕСКА", onDemand: false },
+{ name: "УЛ. ЖАН ДЬО ЛАФОНТЕН", onDemand: false },
+{ name: "УЛ. ЦАРИБРОДСКА", onDemand: false },
+{ name: "УЛ. РУЧЕЙ", onDemand: false },
+{ name: "КВ. ВЕРДИКАЛ", onDemand: false },
+{ name: "КВ. ВЕРДИКАЛ", onDemand: true },
+{ name: "МАНАСТИР СВ. ПЕТКА ПАРАСКЕВА", onDemand: false },
+                ]
+            },
+            {
+                name: "АВТОСТАНЦИЯ БАНКЯ",
+                stops: [
+{ name: "МАНАСТИР СВ. ПЕТКА ПАРАСКЕВА", onDemand: false },
+{ name: "КВ. ВЕРДИКАЛ", onDemand: true },
+{ name: "КВ. ВЕРДИКАЛ", onDemand: false },
+{ name: "УЛ. РУЧЕЙ", onDemand: true },
+{ name: "УЛ. ЦАРИБРОДСКА", onDemand: false },
+{ name: "УЛ. ЖАН ДЬО ЛАФОНТЕН", onDemand: false },
+{ name: "УЛ. УЧЕНИЧЕСКА", onDemand: false },
+{ name: "УЛ. ХИСАРЯ", onDemand: false },
+{ name: "АВТОСТАНЦИЯ БАНКЯ", onDemand: false },
+]
+            }
+        ]
+    },
+	"bus-47": {
+        number: "47",
+        type: "bus",
+        directions: [
+            {
+                name: "ГРАДОМАН",
+                stops: [
+  { name: "МЕТРОСТАНЦИЯ СЛИВНИЦА", onDemand: false },
+  { name: "НЕСТЛЕ-СОФИЯ", onDemand: false },
+  { name: "ПП УСПЕХ", onDemand: false },
+  { name: "КВ. РЕПУБЛИКА", onDemand: false },
+  { name: "ИНСТИТУТ ПУШКАРОВ", onDemand: true },
+  { name: "ПРОМИШЛЕНА ЗОНА", onDemand: true },
+  { name: "ЕКОБУСОРТ", onDemand: true },
+  { name: "РАЗКЛОНА ЗА С. ГУРМАЗОВО", onDemand: true },
+  { name: "ХИПОДРУМА БАНКЯ", onDemand: true },
+  { name: "КАНТОНА", onDemand: true },
+  { name: "МАХАЛА ИВАНЯНЕ", onDemand: true },
+  { name: "КЪМПИНГА", onDemand: true },
+  { name: "ГАРА ИВАНЯНЕ", onDemand: false },
+  { name: "ГРОБИЩЕН ПАРК БАНКЯ", onDemand: false },
+  { name: "СТАДИОНА БАНКЯ", onDemand: false },
+  { name: "УЛ. ХИСАРЯ", onDemand: false },
+  { name: "ЦЕНТЪРА БАНКЯ", onDemand: false },
+  { name: "ОБЩИНА БАНКЯ", onDemand: false },
+  { name: "УЛ. ТИНТЯВА", onDemand: false },
+  { name: "В.З. БАНКЯ", onDemand: false },
+  { name: "УЛ. ВЕНЕРА", onDemand: false },
+  { name: "НАЧАЛО КВ. ГРАДОМАН", onDemand: false },
+  { name: "КВ. ГРАДОМАН", onDemand: false }
+                ]
+            },
+            {
+                name: "МЕТРОСТАНЦИЯ СЛИВНИЦА",
+                stops: [
+  { name: "КВ. ГРАДОМАН", onDemand: false },
+  { name: "НАЧАЛО КВ. ГРАДОМАН", onDemand: false },
+  { name: "УЛ. ВЕНЕРА", onDemand: false },
+  { name: "В.З. БАНКЯ", onDemand: false },
+  { name: "УЛ. ТИНТЯВА", onDemand: false },
+  { name: "ОБЩИНА БАНКЯ", onDemand: false },
+  { name: "ЦЕНТЪРА БАНКЯ", onDemand: false },
+  { name: "УЛ. ХИСАРЯ", onDemand: false },
+  { name: "СТАДИОНА БАНКЯ", onDemand: false },
+  { name: "ГРОБИЩЕН ПАРК БАНКЯ", onDemand: false },
+  { name: "ГАРА ИВАНЯНЕ", onDemand: false },
+  { name: "КЪМПИНГА", onDemand: true },
+  { name: "МАХАЛА ИВАНЯНЕ", onDemand: true },
+  { name: "КАНТОНА", onDemand: true },
+  { name: "ХИПОДРУМА БАНКЯ", onDemand: true },
+  { name: "РАЗКЛОНА ЗА С. ГУРМАЗОВО", onDemand: true },
+  { name: "ЕКОБУСОРТ", onDemand: true },
+  { name: "ПРОМИШЛЕНА ЗОНА", onDemand: true },
+  { name: "ИНСТИТУТ ПУШКАРОВ", onDemand: true },
+  { name: "КВ. РЕПУБЛИКА", onDemand: false },
+  { name: "ПП УСПЕХ", onDemand: false },
+  { name: "НЕСТЛЕ-СОФИЯ", onDemand: false },
+  { name: "МЕТРОСТАНЦИЯ СЛИВНИЦА", onDemand: false }
+]
+            }
+        ]
+    },
+	"bus-49": {
+        number: "49",
+        type: "bus",
+        directions: [
+            {
+                name: "КЛИСУРА",
+                stops: [
+  { name: "МЕТРОСТАНЦИЯ СЛИВНИЦА", onDemand: false },
+  { name: "НЕСТЛЕ - СОФИЯ", onDemand: false },
+  { name: "ПП УСПЕХ", onDemand: false },
+  { name: "КВ. РЕПУБЛИКА", onDemand: false },
+  { name: "ИНСТИТУТ ПУШКАРОВ", onDemand: true },
+  { name: "ПРОМИШЛЕНА ЗОНА", onDemand: true },
+  { name: "ЕКОБУЛСОРТ", onDemand: true },
+  { name: "РАЗКЛОНА ЗА С. ГУРМАЗОВО", onDemand: true },
+  { name: "ХИПОДРУМА БАНКЯ", onDemand: true },
+  { name: "КАНТОНА", onDemand: true },
+  { name: "МАХАЛА ИВАНЯНЕ", onDemand: true },
+  { name: "КЪМПИНГА", onDemand: true },
+  { name: "ГАРА ИВАНЯНЕ", onDemand: false },
+  { name: "ГРОБИЩЕН ПАРК БАНКЯ", onDemand: false },
+  { name: "СТАДИОНА БАНКЯ", onDemand: false },
+  { name: "УЛ. ХИСАРЯ", onDemand: false },
+  { name: "ЦЕНТЪРА БАНКЯ", onDemand: false },
+  { name: "ЦЕНТЪРА БАНКЯ", onDemand: false },
+  { name: "УЛ. СТАРА ПЛАНИНА", onDemand: false },
+  { name: "УЛ. ЦАРИГРАДСКО ШОСЕ", onDemand: false },
+  { name: "УЛ. РУЧЕЙ", onDemand: false },
+  { name: "КВ. ВЕРДИКАЛ", onDemand: false },
+  { name: "ПО ЖЕЛАНИЕ (ВЕРДИКАЛ)", onDemand: true },
+  { name: "ОВЧАРСКИ КОШАРИ", onDemand: false },
+  { name: "НАЧАЛО КВ. КЛИСУРА", onDemand: false },
+  { name: "МОСТА", onDemand: false },
+  { name: "КВ. КЛИСУРА", onDemand: false }
+                ]
+            },
+            {
+                name: "МЕТРОСТАНЦИЯ СЛИВНИЦА",
+                stops: [
+  { name: "КВ. КЛИСУРА", onDemand: false },
+  { name: "МОСТА", onDemand: false },
+  { name: "НАЧАЛО КВ. КЛИСУРА", onDemand: false },
+  { name: "ОВЧАРСКИ КОШАРИ", onDemand: false },
+  { name: "ПО ЖЕЛАНИЕ (ВЕРДИКАЛ)", onDemand: true },
+  { name: "КВ. ВЕРДИКАЛ", onDemand: false },
+  { name: "УЛ. РУЧЕЙ", onDemand: false },
+  { name: "УЛ. ЦАРИГРАДСКО ШОСЕ", onDemand: false },
+  { name: "УЛ. СТАРА ПЛАНИНА", onDemand: false },
+  { name: "ЦЕНТЪРА БАНКЯ", onDemand: false },
+  { name: "ЦЕНТЪРА БАНКЯ", onDemand: false },
+  { name: "УЛ. ХИСАРЯ", onDemand: false },
+  { name: "СТАДИОНА БАНКЯ", onDemand: false },
+  { name: "ГРОБИЩЕН ПАРК БАНКЯ", onDemand: false },
+  { name: "ГАРА ИВАНЯНЕ", onDemand: false },
+  { name: "КЪМПИНГА", onDemand: true },
+  { name: "МАХАЛА ИВАНЯНЕ", onDemand: true },
+  { name: "КАНТОНА", onDemand: true },
+  { name: "ХИПОДРУМА БАНКЯ", onDemand: true },
+  { name: "РАЗКЛОНА ЗА С. ГУРМАЗОВО", onDemand: true },
+  { name: "ЕКОБУЛСОРТ", onDemand: true },
+  { name: "ПРОМИШЛЕНА ЗОНА", onDemand: true },
+  { name: "ИНСТИТУТ ПУШКАРОВ", onDemand: true },
+  { name: "КВ. РЕПУБЛИКА", onDemand: false },
+  { name: "ПП УСПЕХ", onDemand: false },
+  { name: "НЕСТЛЕ - СОФИЯ", onDemand: false },
+  { name: "МЕТРОСТАНЦИЯ СЛИВНИЦА", onDemand: false }
+]
+            }
+        ]
+    },
+	"bus-54": {
+        number: "54",
+        type: "bus",
+        directions: [
+            {
+                name: "ПЪТЕН ВЪЗЕЛ КАЛОТИНА",
+                stops: [
+  { name: "МЕТРОСТАНЦИЯ СЛИВНИЦА", onDemand: false },
+  { name: "НЕСТЛЕ - СОФИЯ", onDemand: false },
+  { name: "ПП УСПЕХ", onDemand: false },
+  { name: "КВ. РЕПУБЛИКА", onDemand: false },
+  { name: "КВ. РЕПУБЛИКА-2", onDemand: false },
+  { name: "МАГАЗИН МЕТРО 2", onDemand: false },
+  { name: "НАЧАЛО ТОЛЕВА МАХАЛА", onDemand: false },
+  { name: "ТОЛЕВА МАХАЛА", onDemand: false },
+  { name: "ЖП ПРЕЛЕЗ", onDemand: false },
+  { name: "ВОЕНОРЕМОНТЕН ЗАВОД", onDemand: false },
+  { name: "УЛ. Г. БЕНКОВСКИ", onDemand: false },
+  { name: "УЛ. ХРИСТО БОТЕВ", onDemand: false },
+  { name: "КМЕТСТВО БОЖУРИЩЕ", onDemand: false },
+  { name: "ИСКЪР БОЖУРИЩЕ", onDemand: false },
+  { name: "УЛ. ХАН ТЕРВЕЛ КВ. МАКСИМ ГОРКИ", onDemand: false },
+  { name: "УЛ. ХАН КРУМ КВ. МАКСИМ ГОРКИ", onDemand: false },
+  { name: "ПЪТЕН ВЪЗЕЛ КАЛОТИНА", onDemand: false }
+                ]
+            },
+            {
+                name: "МЕТРОСТАНЦИЯ СЛИВНИЦА",
+                stops: [
+  { name: "ПЪТЕН ВЪЗЕЛ КАЛОТИНА", onDemand: false },
+  { name: "УЛ. ХАН КРУМ КВ. МАКСИМ ГОРКИ", onDemand: false },
+  { name: "УЛ. ХАН ТЕРВЕЛ КВ. МАКСИМ ГОРКИ", onDemand: false },
+  { name: "ИСКЪР БОЖУРИЩЕ", onDemand: false },
+  { name: "КМЕТСТВО БОЖУРИЩЕ", onDemand: false },
+  { name: "УЛ. ХРИСТО БОТЕВ", onDemand: false },
+  { name: "УЛ. Г. БЕНКОВСКИ", onDemand: false },
+  { name: "ВОЕНОРЕМОНТЕН ЗАВОД", onDemand: false },
+  { name: "ЖП ПРЕЛЕЗ", onDemand: false },
+  { name: "ТОЛЕВА МАХАЛА", onDemand: false },
+  { name: "НАЧАЛО ТОЛЕВА МАХАЛА", onDemand: false },
+  { name: "МАГАЗИН МЕТРО 2", onDemand: false },
+  { name: "КВ. РЕПУБЛИКА-2", onDemand: false },
+  { name: "КВ. РЕПУБЛИКА", onDemand: false },
+  { name: "ПП УСПЕХ", onDemand: false },
+  { name: "НЕСТЛЕ - СОФИЯ", onDemand: false },
+  { name: "МЕТРОСТАНЦИЯ СЛИВНИЦА", onDemand: false }
+]
+            }
+        ]
+    },
+	"bus-56": {
+        number: "56",
+        type: "bus",
+        directions: [
+            {
+                name: "ГАРА ЗАХАРНА ФАБРИКА",
+                stops: [
+{ name: "СЕЛО МАЛО БУЧИНО", onDemand: false },
+{ name: "УЛ. ДЕМОКРАЦИЯ", onDemand: false },
+{ name: "УЛ. ЛИПА", onDemand: false },
+{ name: "РАЗСАДНИК МАЛО БУЧИНО", onDemand: false },
+{ name: "ЯЗОВИР МАЛО БУЧИНО", onDemand: false },
+{ name: "МЕСТНОСТ МАНИЛОВ ДОЛ", onDemand: false },
+{ name: "В.З. СУХОДОЛ", onDemand: false },
+{ name: "МИТНИЦА СУХОДОЛ", onDemand: false },
+{ name: "УП ПРИПЕП", onDemand: false },
+{ name: "ЦЪРКВАТА СВ. ГЕОРГИ", onDemand: false },
+{ name: "ЧИТАЛИЩЕ ПРОСВЕТА", onDemand: false },
+{ name: "ОКОЛОВРЪСТЕН ПЪТ", onDemand: false },
+{ name: "МОСТА НА Р. СТУБЕЛА", onDemand: false },
+{ name: "ПРОСТОР", onDemand: false },
+{ name: "ВСУ Л. КАРАВЕЛОВ", onDemand: false },
+{ name: "УЛ. МОНТЕВИДЕО", onDemand: false },
+{ name: "УЛ. 746", onDemand: true },
+{ name: "МАХАЛА КОНЬОВИЦА", onDemand: false },
+{ name: "СЕЛСКОСТОПАНСКА АКАДЕМИЯ", onDemand: false },
+{ name: "КВ. ФАКУЛТЕТА", onDemand: false },
+{ name: "Ж.К. ЗАПАДЕН ПАРК", onDemand: false },
+{ name: "БЛ. 13 Ж.К. ЗАПАДЕН ПАРК", onDemand: false },
+{ name: "БУЛ. АЛ. СТАМБОЛИЙСКИ", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ВАРДАР", onDemand: false }
+{ name: "УЛ. ХАЙДУТ СИДЕР", onDemand: false }
+{ name: "ГАРА ЗАХАРНА ФАБРИКА", onDemand: false }
+                ]
+            },
+            {
+                name: "МАЛО БУЧИНО",
+                stops: [
+{ name: "ГАРА ЗАХАРНА ФАБРИКА", onDemand: false },
+{ name: "УЛ. ХАЙДУТ СИДЕР", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ВАРДАР", onDemand: false },
+{ name: "БЛ. 13 Ж.К. ЗАПАДЕН ПАРК", onDemand: false },
+{ name: "Ж.К. ЗАПАДЕН ПАРК", onDemand: false },
+{ name: "КВ. ФАКУЛТЕТА", onDemand: false },
+{ name: "СЕЛСКОСТОПАНСКА АКАДЕМИЯ", onDemand: false },
+{ name: "МАХАЛА КОНЬОВИЦА", onDemand: false },
+{ name: "УЛ. 746", onDemand: true },
+{ name: "УЛ. МОНТЕВИДЕО", onDemand: false },
+{ name: "ВСУ Л. КАРАВЕЛОВ", onDemand: false },
+{ name: "ПРОСТОР", onDemand: false },
+{ name: "МОСТА НА Р. СТУБЕЛА", onDemand: false },
+{ name: "ОКОЛОВРЪСТЕН ПЪТ", onDemand: false },
+{ name: "ЧИТАЛИЩЕ ПРОСВЕТА", onDemand: false },
+{ name: "ЦЪРКВАТА СВ. ГЕОРГИ", onDemand: false },
+{ name: "УП ПРИПЕП", onDemand: false },
+{ name: "МИТНИЦА СУХОДОЛ", onDemand: false },
+{ name: "В.З. СУХОДОЛ", onDemand: false },
+{ name: "МЕСТНОСТ МАНИЛОВ ДОЛ", onDemand: false },
+{ name: "ЯЗОВИР МАЛО БУЧИНО", onDemand: false },
+{ name: "РАЗСАДНИК МАЛО БУЧИНО", onDemand: false },
+{ name: "УЛ. ЛИПА", onDemand: false },
+{ name: "УЛ. ДЕМОКРАЦИЯ", onDemand: false },
+{ name: "СЕЛО МАЛО БУЧИНО", onDemand: false }
+]
+            }
+        ]
+    },
+	"bus-58": {
+        number: "58",
+        type: "bus",
+        directions: [
+            {
+                name: "АВТОСТАНЦИЯ КНЯЖЕВО",
+                stops: [
+{ name: "ГАРА ВЛАДАЯ", onDemand: false },
+{ name: "СЕЛИМИЦА", onDemand: false },
+{ name: "УЛ. ЛЕСКОВЕЦ", onDemand: false },
+{ name: "УЛ. КИТЕН", onDemand: false },
+{ name: "КМЕТСТВО ВЛАДАЯ", onDemand: false },
+{ name: "УЛ. ПРОЛЕТ", onDemand: false },
+{ name: "НАЧАЛО С. ВЛАДАЯ", onDemand: true },
+{ name: "КЪМПИНГ ЧЕРНИЯ КОС", onDemand: true },
+{ name: "УЛ. МАЛА КОРИЯ", onDemand: true },
+{ name: "УЛ. 10-ТИ КИЛОМЕТЪР", onDemand: true },
+{ name: "УЛ. ВЛАДАЙСКО ВЪСТАНИЕ", onDemand: true },
+{ name: "УЛ. СИНЯТА СКАЛА", onDemand: true },
+{ name: "АВТОСТАНЦИЯ КНЯЖЕВО", onDemand: false },
+                ]
+            },
+            {
+                name: "ГАРА ВЛАДАЯ",
+                stops: [
+{ name: "АВТОСТАНЦИЯ КНЯЖЕВО", onDemand: false },
+{ name: "УЛ. СИНЯТА СКАЛА", onDemand: true },
+{ name: "УЛ. ВЛАДАЙСКО ВЪСТАНИЕ", onDemand: true },
+{ name: "УЛ. 10-ТИ КИЛОМЕТЪР", onDemand: true },
+{ name: "УЛ. МАЛА КОРИЯ", onDemand: true },
+{ name: "КЪМПИНГ ЧЕРНИЯ КОС", onDemand: true },
+{ name: "НАЧАЛО С. ВЛАДАЯ", onDemand: true },
+{ name: "УЛ. ПРОЛЕТ", onDemand: false },
+{ name: "КМЕТСТВО ВЛАДАЯ", onDemand: false },
+{ name: "УЛ. КИТЕН", onDemand: false },
+{ name: "УЛ. ЛЕСКОВЕЦ", onDemand: false },
+{ name: "СЕЛИМИЦА", onDemand: false },
+{ name: "ГАРА ВЛАДАЯ", onDemand: false }
+]
+            }
+        ]
+    },
 };
+
 
 
 
