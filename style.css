@@ -242,15 +242,15 @@ body {
         font-size: 20px !important;
     }
 
-    .line-header-icon {
-        gap: 6px;
-    }
-
         .search {
         font-size: 16px;         /* slightly larger text on mobile */
         padding: 12px 15px;      /* adjust padding for easier tapping */
         width: 100%;             /* make sure it fills the screen */
         border-radius: 6px;      /* reduce border-radius for a more compact look */
+    }
+
+    .line-header-icon {
+        gap: 6px;
     }
 }
 
@@ -282,6 +282,7 @@ body {
         height: 30px;  /* original height */
     }
 }
+
 
 
 
