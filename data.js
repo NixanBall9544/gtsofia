@@ -1369,7 +1369,6 @@ const lines = {
             {
                 name: "МАНАСТИР СВ. МИНА",
                 stops: [
-[
    					{ name: "АВТОСТАНЦИЯ ОРЛАНДОВЦИ", onDemand: false },
     				{ name: "КВ. ОРЛАНДОВЦИ", onDemand: false },
     				{ name: "УЛ. ПОЩЕНСКА", onDemand: false },
@@ -1715,7 +1714,6 @@ const lines = {
             {
                 name: "БАЛША",
                 stops: [
-[
   { name: "ГАРА СОФИЯ СЕВЕР", onDemand: false },
   { name: "МОДНА КЪЩА АГРЕСИЯ", onDemand: false },
   { name: "СТОКОВ БАЗАР ИЛИЯНЦИ", onDemand: false },
@@ -1750,7 +1748,6 @@ const lines = {
             {
                 name: "ГАРА СОФИЯ СЕВЕР",
                 stops: [
-[
   { name: "СЕЛО БАЛША", onDemand: false },
   { name: "УЛ. СТАРА ПЛАНИНА", onDemand: false },
   { name: "ПО ЖЕЛАНИЕ", onDemand: true },
@@ -1785,6 +1782,7 @@ const lines = {
         ]
     },
 };
+
 
 
 
