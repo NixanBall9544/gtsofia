@@ -2533,7 +2533,240 @@ const lines = {
             }
         ]
     },
+	"bus-61": {
+        number: "61",
+        type: "bus",
+        directions: [
+            {
+                name: "БУЛ. ЧЕРНИ ВРЪХ",
+                stops: [
+{ name: "ЗЛАТНИТЕ МОСТОВЕ", onDemand: false },
+{ name: "ДЕТСКИ СТАЦИОНАР", onDemand: true },
+{ name: "ДЕНДРАРИУМА", onDemand: true },
+{ name: "МУЗЕЙ НА МЕЧКАТА", onDemand: true },
+{ name: "ТИХИЯ КЪТ", onDemand: true },
+{ name: "БЯЛАТА ВОДА", onDemand: true },
+{ name: "УЛ. БЯЛАТА ЧЕШМА", onDemand: true },
+{ name: "УЛ. СТАР БЕЛОВОДСКИ ПЪТ", onDemand: true },
+{ name: "Ж.К. МАГНОЛИЯ", onDemand: true },
+{ name: "КВ. БОЯНА", onDemand: false },
+{ name: "УЛ. ТОДОР КАБЛЕШКОВ", onDemand: false },
+{ name: "БУЛ. ГОЦЕ ДЕЛЧЕВ", onDemand: false },
+{ name: "БУЛ. АКАД. ИВАН ГЕШОВ", onDemand: false },
+{ name: "БУЛ. ЧЕРНИ ВРЪХ", onDemand: false },
+                ]
+            },
+            {
+                name: "ЗЛАТНИТЕ МОСТОВЕ",
+                stops: [
+{ name: "БУЛ. ЧЕРНИ ВРЪХ", onDemand: false },
+{ name: "БУЛ. АКАД. ИВАН ГЕШОВ", onDemand: false },
+{ name: "БУЛ. ГОЦЕ ДЕЛЧЕВ", onDemand: false },
+{ name: "УЛ. ТОДОР КАБЛЕШКОВ", onDemand: false },
+{ name: "КВ. БОЯНА", onDemand: false },
+{ name: "Ж.К. МАГНОЛИЯ", onDemand: true },
+{ name: "УЛ. СТАР БЕЛОВОДСКИ ПЪТ", onDemand: true },
+{ name: "УЛ. БЯЛАТА ЧЕШМА", onDemand: true },
+{ name: "БЯЛАТА ВОДА", onDemand: true },
+{ name: "ТИХИЯ КЪТ", onDemand: true },
+{ name: "МУЗЕЙ НА МЕЧКАТА", onDemand: true },
+{ name: "ДЕНДРАРИУМА", onDemand: true },
+{ name: "ДЕТСКИ СТАЦИОНАР", onDemand: true },
+{ name: "ЗЛАТНИТЕ МОСТОВЕ", onDemand: false },
+]
+            }
+        ]
+    },
+	"bus-63": {
+        number: "63",
+        type: "bus",
+        directions: [
+            {
+                name: "ЗЛАТНИТЕ МОСТОВЕ",
+                stops: [
+{ name: "БУЛ. ЦАР БОРИС III", onDemand: false },
+{ name: "Ж.К. КРАСНО СЕЛО", onDemand: false },
+{ name: "БУЛ. БРАТЯ БЪКСТОН", onDemand: false },
+{ name: "УЛ. Т. КАБЛЕШКОВ", onDemand: false },
+{ name: "УЛ. ВИХРЕН", onDemand: false },
+{ name: "ПАРАКЛИС СВ. ИВ. РИЛСКИ", onDemand: false },
+{ name: "Ж.К. БЪКСТОН", onDemand: false },
+{ name: "НИМ", onDemand: false },
+{ name: "ГРОБИЩЕН ПАРК БОЯНА", onDemand: true },
+{ name: "РЕЗИДЕНЦИЯ БОЯНА", onDemand: true },
+{ name: "КВ. БОЯНА", onDemand: false },
+{ name: "СКИОРКАТА", onDemand: true },
+{ name: "УЛ. БЯЛЕВЦА", onDemand: true },
+{ name: "УЛ. АКАЦИЯ", onDemand: true },
+{ name: "В.З. БЕЛОВОДСКИ ПЪТ", onDemand: true },
+{ name: "УЛ. МЕЧА ПОЛЯНА", onDemand: true },
+{ name: "Ж.К. МАГНОЛИЯ – ПО ЖЕЛАНИЕ", onDemand: true },
+{ name: "УЛ. СТАР БЕЛОВОДСКИ ПЪТ", onDemand: true },
+{ name: "УЛ. БЯЛАТА ЧЕШМА", onDemand: true },
+{ name: "БЯЛАТА ВОДА", onDemand: true },
+{ name: "ТИХИЯ КЪТ", onDemand: true },
+{ name: "МУЗЕЙ НА МЕЧКАТА", onDemand: true },
+{ name: "ДЕНДРАРИУМА", onDemand: true },
+{ name: "ДЕТСКИ СТАЦИОНАР", onDemand: true },
+{ name: "ЗЛАТНИТЕ МОСТОВЕ", onDemand: false },
+                ]
+            },
+            {
+                name: "БУЛ. ЦАР БОРИС III",
+                stops: [
+{ name: "ЗЛАТНИТЕ МОСТОВЕ", onDemand: false },
+{ name: "ДЕТСКИ СТАЦИОНАР", onDemand: true },
+{ name: "ДЕНДРАРИУМА", onDemand: true },
+{ name: "МУЗЕЙ НА МЕЧКАТА", onDemand: true },
+{ name: "ТИХИЯ КЪТ", onDemand: true },
+{ name: "БЯЛАТА ВОДА", onDemand: true },
+{ name: "УЛ. БЯЛАТА ЧЕШМА", onDemand: true },
+{ name: "УЛ. СТАР БЕЛОВОДСКИ ПЪТ", onDemand: true },
+{ name: "Ж.К. МАГНОЛИЯ – ПО ЖЕЛАНИЕ", onDemand: true },
+{ name: "УЛ. МЕЧА ПОЛЯНА", onDemand: true },
+{ name: "В.З. БЕЛОВОДСКИ ПЪТ", onDemand: true },
+{ name: "УЛ. АКАЦИЯ", onDemand: true },
+{ name: "УЛ. БЯЛЕВЦА", onDemand: true },
+{ name: "СКИОРКАТА", onDemand: true },
+{ name: "КВ. БОЯНА", onDemand: false },
+{ name: "РЕЗИДЕНЦИЯ БОЯНА", onDemand: true },
+{ name: "ГРОБИЩЕН ПАРК БОЯНА", onDemand: true },
+{ name: "НИМ", onDemand: false },
+{ name: "Ж.К. БЪКСТОН", onDemand: false },
+{ name: "ПАРАКЛИС СВ. ИВ. РИЛСКИ", onDemand: false },
+{ name: "УЛ. ВИХРЕН", onDemand: false },
+{ name: "УЛ. Т. КАБЛЕШКОВ", onDemand: false },
+{ name: "БУЛ. БРАТЯ БЪКСТОН", onDemand: false },
+{ name: "Ж.К. КРАСНО СЕЛО", onDemand: false },
+{ name: "БУЛ. ЦАР БОРИС III", onDemand: false },
+]
+            }
+        ]
+    },
+	"bus-64": {
+        number: "64",
+        type: "bus",
+        directions: [
+            {
+                name: "ЗООПАРКА",
+                stops: [
+{ name: "ЦЕНТЪР ПО ХИГИЕНА", onDemand: false },
+{ name: "БУЛ. АКАД. ИВАН Е. ГЕШОВ", onDemand: false },
+{ name: "ПЛ. РУЧЕЙ", onDemand: false },
+{ name: "БУЛ. ГОЦЕ ДЕЛЧЕВ", onDemand: false },
+{ name: "УЛ. Т. КАБЛЕШКОВ", onDemand: false },
+{ name: "Ж.К. БОКАР", onDemand: false },
+{ name: "КВ. МАНАСТИРСКИ ЛИВАДИ", onDemand: false },
+{ name: "ГРОБИЩЕН ПАРК БОЯНА", onDemand: true },
+{ name: "РЕЗИДЕНЦИЯ БОЯНА", onDemand: true },
+{ name: "КВ. БОЯНА", onDemand: false },
+{ name: "СКИОРКАТА", onDemand: false },
+{ name: "УЛ. БАЙКАЛ", onDemand: false },
+{ name: "БОЯНСКО ХАНЧЕ", onDemand: false },
+{ name: "УЛ. БРЕЗИТЕ", onDemand: false },
+{ name: "В.З. БОЯНА", onDemand: false },
+{ name: "УЛ. РАДЕЦКИ", onDemand: false },
+{ name: "ФОХАР АД", onDemand: false },
+{ name: "ДЕТСКИ ДОМ – КИНОЦЕНТЪР", onDemand: false },
+{ name: "КИНОЦЕНТЪР БОЯНА", onDemand: false },
+{ name: "В.З. КИНОЦЕНТЪР", onDemand: false },
+{ name: "УЛ. 5", onDemand: false },
+{ name: "УЛ. 10", onDemand: false },
+{ name: "УЛ. ЛЕШНИКОВА ГОРА", onDemand: false },
+{ name: "КВ. ДРАГАЛЕВЦИ", onDemand: false },
+{ name: "ГРОБИЩЕН ПАРК ДРАГАЛЕВЦИ", onDemand: false },
+{ name: "ОКОЛОВРЪСТЕН ПЪТ", onDemand: false },
+{ name: "КВ. КРЪСТОВА ВАДА", onDemand: false },
+{ name: "УЛ. АСЕН ЙОРДАНОВ", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ВИТОША", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ВИТОША", onDemand: false },
+{ name: "ХЛЕБОЗАВОДА", onDemand: false },
+{ name: "УЛ. СРЕБЪРНА", onDemand: false },
+{ name: "ЗООПАРКА", onDemand: false },
+                ]
+            },
+            {
+                name: "ЦЕНТЪР ПО ХИГИЕНА",
+                stops: [
+{ name: "ЗООПАРКА", onDemand: false },
+{ name: "УЛ. СРЕБЪРНА", onDemand: false },
+{ name: "ХЛЕБОЗАВОДА", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ВИТОША", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ВИТОША", onDemand: false },
+{ name: "УЛ. АСЕН ЙОРДАНОВ", onDemand: false },
+{ name: "КВ. КРЪСТОВА ВАДА", onDemand: false },
+{ name: "ОКОЛОВРЪСТЕН ПЪТ", onDemand: false },
+{ name: "ГРОБИЩЕН ПАРК ДРАГАЛЕВЦИ", onDemand: false },
+{ name: "КВ. ДРАГАЛЕВЦИ", onDemand: false },
+{ name: "УЛ. ЛЕШНИКОВА ГОРА", onDemand: false },
+{ name: "УЛ. 10", onDemand: false },
+{ name: "УЛ. 5", onDemand: false },
+{ name: "В.З. КИНОЦЕНТЪР", onDemand: false },
+{ name: "КИНОЦЕНТЪР БОЯНА", onDemand: false },
+{ name: "ДЕТСКИ ДОМ – КИНОЦЕНТЪР", onDemand: false },
+{ name: "ФОХАР АД", onDemand: false },
+{ name: "УЛ. РАДЕЦКИ", onDemand: false },
+{ name: "В.З. БОЯНА", onDemand: false },
+{ name: "УЛ. БРЕЗИТЕ", onDemand: false },
+{ name: "БОЯНСКО ХАНЧЕ", onDemand: false },
+{ name: "УЛ. БАЙКАЛ", onDemand: false },
+{ name: "СКИОРКАТА", onDemand: false },
+{ name: "КВ. БОЯНА", onDemand: false },
+{ name: "РЕЗИДЕНЦИЯ БОЯНА", onDemand: true },
+{ name: "ГРОБИЩЕН ПАРК БОЯНА", onDemand: true },
+{ name: "КВ. МАНАСТИРСКИ ЛИВАДИ", onDemand: false },
+{ name: "Ж.К. БОКАР", onDemand: false },
+{ name: "УЛ. Т. КАБЛЕШКОВ", onDemand: false },
+{ name: "БУЛ. ГОЦЕ ДЕЛЧЕВ", onDemand: false },
+{ name: "ПЛ. РУЧЕЙ", onDemand: false },
+{ name: "БУЛ. АКАД. ИВАН Е. ГЕШОВ", onDemand: false },
+{ name: "ЦЕНТЪР ПО ХИГИЕНА", onDemand: false },
+]
+            }
+        ]
+    },
+	"bus-66": {
+        number: "66",
+        type: "bus",
+        directions: [
+            {
+                name: "ЗООПАРКА",
+                stops: [
+{ name: "ХИЖА АЛЕКО", onDemand: false },
+{ name: "ЗАСЛОН БАЙ КРЪСТЬО", onDemand: true },
+{ name: "РАЗКЛОНА ЗА ДРАГАЛЕВСКИ МАНАСТИР", onDemand: true },
+{ name: "РАЗКЛОНА ЗА ЛИФТ ДРАГАЛЕВЦИ", onDemand: true },
+{ name: "ВОДЕНИЧАРСКИ МЕХАНИ", onDemand: true },
+{ name: "УЛ. МАЕСТРО АТАНАСОВ", onDemand: true },
+{ name: "КВ. ДРАГАЛЕВЦИ", onDemand: false },
+{ name: "ГРОБИЩЕН ПАРК ДРАГАЛЕВЦИ", onDemand: true },
+{ name: "ОКОЛОВРЪСТЕН ПЪТ", onDemand: true },
+{ name: "МЕТРОСТАНЦИЯ ВИТОША", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ВИТОША", onDemand: false },
+{ name: "ЗООПАРКА", onDemand: false },
+                ]
+            },
+            {
+                name: "ХИЖА АЛЕКО",
+                stops: [
+{ name: "ЗООПАРКА", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ВИТОША", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ВИТОША", onDemand: false },
+{ name: "ОКОЛОВРЪСТЕН ПЪТ", onDemand: true },
+{ name: "ГРОБИЩЕН ПАРК ДРАГАЛЕВЦИ", onDemand: true },
+{ name: "КВ. ДРАГАЛЕВЦИ", onDemand: false },
+{ name: "УЛ. МАЕСТРО АТАНАСОВ", onDemand: true },
+{ name: "ВОДЕНИЧАРСКИ МЕХАНИ", onDemand: true },
+{ name: "РАЗКЛОНА ЗА ЛИФТ ДРАГАЛЕВЦИ", onDemand: true },
+{ name: "РАЗКЛОНА ЗА ДРАГАЛЕВСКИ МАНАСТИР", onDemand: true },
+{ name: "ЗАСЛОН БАЙ КРЪСТЬО", onDemand: true },
+{ name: "ХИЖА АЛЕКО", onDemand: false },
+]
+            }
+        ]
+    },
 };
+
 
 
 
