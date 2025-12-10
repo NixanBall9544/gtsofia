@@ -3081,7 +3081,260 @@ const lines = {
             }
         ]
     },
+	"bus-72": {
+        number: "72",
+        type: "bus",
+        directions: [
+            {
+                name: "ЗАПАДЕН ПАРК",
+                stops: [
+{ name: "ХОТЕЛ ПЛИСКА", onDemand: false },
+{ name: "ШИПЧЕНСКИ ПРОХОД", onDemand: false },
+{ name: "УЛ. ГЕО МИЛЕВ", onDemand: false },
+{ name: "ЗАЛА ФЕСТИВАЛНА", onDemand: false },
+{ name: "УЛ. КАЛИМАНЦИ", onDemand: false },
+{ name: "УЛ. АТАНАС УЗУНОВ", onDemand: false },
+{ name: "ЧИТАЛИЩЕ ОТЕЦ ПАИСИЙ", onDemand: false },
+{ name: "УЛ. ВЕЛЧО АТАНАСОВ", onDemand: false },
+{ name: "ГАРА ПОДУЯНЕ", onDemand: false },
+{ name: "УЛ. ОБОРИЩЕ", onDemand: false },
+{ name: "УЛ. ЧЕРКОВНА", onDemand: false },
+{ name: "129-ТО ОУ", onDemand: false },
+{ name: "ВОЕННА АКАДЕМИЯ", onDemand: false },
+{ name: "ПЛ. ОРЛОВ МОСТ", onDemand: false },
+{ name: "УЛ. ГРАФ ИГНАТИЕВ", onDemand: false },
+{ name: "УЛ. 6-ТИ СЕПТЕМВРИ", onDemand: false },
+{ name: "БУЛ. ЧЕРНИ ВРЪХ", onDemand: false },
+{ name: "БУЛ. ВИТОША", onDemand: false },
+{ name: "УМБАЛ СВ. ЕКАТЕРИНА", onDemand: false },
+{ name: "УМБАЛ АЛЕКСАНДРОВСКА", onDemand: false },
+{ name: "ВМА", onDemand: false },
+{ name: "БУЛ. ЦАР БОРИС 3", onDemand: false },
+{ name: "УЛ. ГОЦЕВВО", onDemand: false },
+{ name: "БУЛ. ВЪЗКРЕСЕНИЕ", onDemand: false },
+{ name: "БУЛ. ВАРДАР", onDemand: false },
+{ name: "УЛ. ПРОФ. ВАЙГАНД", onDemand: false },
+{ name: "Ж.К. КРАСНА ПОЛЯНА", onDemand: false },
+{ name: "Ж.К. ЗАПАДЕН ПАРК", onDemand: false }
+                ]
+            },
+            {
+                name: "ХОТЕЛ ПЛИСКА",
+                stops: [
+{ name: "Ж.К. ЗАПАДЕН ПАРК", onDemand: false },
+{ name: "Ж.К. КРАСНА ПОЛЯНА", onDemand: false },
+{ name: "УЛ. ПРОФ. ВАЙГАНД", onDemand: false },
+{ name: "БУЛ. ВАРДАР", onDemand: false },
+{ name: "БУЛ. ВЪЗКРЕСЕНИЕ", onDemand: false },
+{ name: "УЛ. ГОЦЕВВО", onDemand: false },
+{ name: "БУЛ. ЦАР БОРИС 3", onDemand: false },
+{ name: "ВМА", onDemand: false },
+{ name: "УМБАЛ АЛЕКСАНДРОВСКА", onDemand: false },
+{ name: "УМБАЛ СВ. ЕКАТЕРИНА", onDemand: false },
+{ name: "БУЛ. ВИТОША", onDemand: false },
+{ name: "БУЛ. ЧЕРНИ ВРЪХ", onDemand: false },
+{ name: "УЛ. 6-ТИ СЕПТЕМВРИ", onDemand: false },
+{ name: "УЛ. ГРАФ ИГНАТИЕВ", onDemand: false },
+{ name: "ПЛ. ОРЛОВ МОСТ", onDemand: false },
+{ name: "ВОЕННА АКАДЕМИЯ", onDemand: false },
+{ name: "129-ТО ОУ", onDemand: false },
+{ name: "УЛ. ЧЕРКОВНА", onDemand: false },
+{ name: "УЛ. ОБОРИЩЕ", onDemand: false },
+{ name: "ГАРА ПОДУЯНЕ", onDemand: false },
+{ name: "УЛ. ВЕЛЧО АТАНАСОВ", onDemand: false },
+{ name: "ЧИТАЛИЩЕ ОТЕЦ ПАИСИЙ", onDemand: false },
+{ name: "УЛ. АТАНАС УЗУНОВ", onDemand: false },
+{ name: "УЛ. КАЛИМАНЦИ", onDemand: false },
+{ name: "ЗАЛА ФЕСТИВАЛНА", onDemand: false },
+{ name: "УЛ. ГЕО МИЛЕВ", onDemand: false },
+{ name: "ШИПЧЕНСКИ ПРОХОД", onDemand: false },
+{ name: "ХОТЕЛ ПЛИСКА", onDemand: false }
+]
+            }
+        ]
+    },
+	"bus-73": {
+        number: "73",
+        type: "bus",
+        directions: [
+            {
+                name: "МЛАДОСТ 1",
+                stops: [
+{ name: "Ж.К. ОВЧА КУПЕЛ 2", onDemand: false },
+{ name: "ПАЗАРА ОВЧА КУПЕЛ", onDemand: false },
+{ name: "БЛ. 25 Ж.К. ОВЧА КУПЕЛ 2", onDemand: false },
+{ name: "БЛ. 32 Ж.К. ОВЧА КУПЕЛ 2", onDemand: false },
+{ name: "УЛ. ПРОМИШЛЕНА", onDemand: false },
+{ name: "БЛ. 527 Ж.К. ОВЧА КУПЕЛ 1", onDemand: false },
+{ name: "БЛ. 505 Ж.К. ОВЧА КУПЕЛ 1", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ МИСИЯ", onDemand: false },
+{ name: "ПГСС", onDemand: false },
+{ name: "НБУ", onDemand: false },
+{ name: "УЛ. БОРЯНА", onDemand: false },
+{ name: "УЛ. НАРОДЕН ГЕРОЙ", onDemand: false },
+{ name: "УЛ. ЛЮБЛЯНА", onDemand: false },
+{ name: "НЦ ПО РЕХАБИЛИТАЦИЯ", onDemand: false },
+{ name: "КВ. ОВЧА КУПЕЛ", onDemand: false },
+{ name: "УЛ. Т. КАБЛЕШКОВ", onDemand: false },
+{ name: "УЛ. РОДОПСКИ ИЗВОР", onDemand: false },
+{ name: "БУЛ. БЪЛГАРИЯ", onDemand: false },
+{ name: "УЛ. ГЕОРГИ ИЗМИРЛИЕВ", onDemand: false },
+{ name: "УЛ. Т. КАБЛЕШКОВ", onDemand: false },
+{ name: "29-ТИ ДКЦ", onDemand: false },
+{ name: "УЛ. КОСТЕНСКИ ВОДОПАД", onDemand: false },
+{ name: "УЛ. ЛУИ АЙЕР", onDemand: false },
+{ name: "ЮЖЕН ПАРК", onDemand: false },
+{ name: "УЛ. ИВАН АНДОНОВ", onDemand: false },
+{ name: "БУЛ. ЧЕРНИ ВРЪХ", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ВИТОША", onDemand: false },
+{ name: "АДЖИБАДЕМ СИТИ КЛИНИК", onDemand: false },
+{ name: "МБАЛ ТОКУДА БОЛНИЦА", onDemand: false },
+{ name: "НПМГ АКАД. ЛЮБОМИР ЧАКАЛОВ", onDemand: false },
+{ name: "ХОТЕЛ ПЛИСКА", onDemand: false },
+{ name: "УМБАЛ СВЕТА АННА", onDemand: false },
+{ name: "БЛ. 6 Ж.К. МЛАДОСТ-1", onDemand: false },
+{ name: "БЛ. 41 Ж.К. МЛАДОСТ-1", onDemand: false },
+{ name: "УЛ. ЙЕРУСАЛИМ", onDemand: false },
+{ name: "ОНКОЛОГИЧЕН ДИСПАНСЕР", onDemand: false },
+{ name: "ПОСОЛСТВАТА", onDemand: false },
+{ name: "Ж.К. МЛАДОСТ-1", onDemand: false }
+                ]
+            },
+            {
+                name: "ОВЧА КУПЕЛ 2",
+                stops: [
+{ name: "Ж.К. МЛАДОСТ-1", onDemand: false },
+{ name: "ПОСОЛСТВАТА", onDemand: false },
+{ name: "ОНКОЛОГИЧЕН ДИСПАНСЕР", onDemand: false },
+{ name: "УЛ. ЙЕРУСАЛИМ", onDemand: false },
+{ name: "БЛ. 41 Ж.К. МЛАДОСТ-1", onDemand: false },
+{ name: "БЛ. 6 Ж.К. МЛАДОСТ-1", onDemand: false },
+{ name: "УМБАЛ СВЕТА АННА", onDemand: false },
+{ name: "ХОТЕЛ ПЛИСКА", onDemand: false },
+{ name: "НПМГ АКАД. ЛЮБОМИР ЧАКАЛОВ", onDemand: false },
+{ name: "МБАЛ ТОКУДА БОЛНИЦА", onDemand: false },
+{ name: "АДЖИБАДЕМ СИТИ КЛИНИК", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ВИТОША", onDemand: false },
+{ name: "БУЛ. ЧЕРНИ ВРЪХ", onDemand: false },
+{ name: "УЛ. ИВАН АНДОНОВ", onDemand: false },
+{ name: "ЮЖЕН ПАРК", onDemand: false },
+{ name: "УЛ. ЛУИ АЙЕР", onDemand: false },
+{ name: "УЛ. КОСТЕНСКИ ВОДОПАД", onDemand: false },
+{ name: "29-ТИ ДКЦ", onDemand: false },
+{ name: "УЛ. Т. КАБЛЕШКОВ", onDemand: false },
+{ name: "УЛ. ГЕОРГИ ИЗМИРЛИЕВ", onDemand: false },
+{ name: "БУЛ. БЪЛГАРИЯ", onDemand: false },
+{ name: "УЛ. РОДОПСКИ ИЗВОР", onDemand: false },
+{ name: "УЛ. Т. КАБЛЕШКОВ", onDemand: false },
+{ name: "КВ. ОВЧА КУПЕЛ", onDemand: false },
+{ name: "НЦ ПО РЕХАБИЛИТАЦИЯ", onDemand: false },
+{ name: "УЛ. ЛЮБЛЯНА", onDemand: false },
+{ name: "УЛ. НАРОДЕН ГЕРОЙ", onDemand: false },
+{ name: "УЛ. БОРЯНА", onDemand: false },
+{ name: "НБУ", onDemand: false },
+{ name: "ПГСС", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ МИСИЯ", onDemand: false },
+{ name: "БЛ. 505 Ж.К. ОВЧА КУПЕЛ 1", onDemand: false },
+{ name: "БЛ. 527 Ж.К. ОВЧА КУПЕЛ 1", onDemand: false },
+{ name: "УЛ. ПРОМИШЛЕНА", onDemand: false },
+{ name: "БЛ. 32 Ж.К. ОВЧА КУПЕЛ 2", onDemand: false },
+{ name: "БЛ. 25 Ж.К. ОВЧА КУПЕЛ 2", onDemand: false },
+{ name: "ПАЗАРА ОВЧА КУПЕЛ", onDemand: false },
+{ name: "Ж.К. ОВЧА КУПЕЛ 2", onDemand: false }
+]
+            }
+        ]
+    },
+	"bus-74": {
+        number: "74",
+        type: "bus",
+        directions: [
+            {
+                name: "ГОЦЕ ДЕЛЧЕВ",
+                stops: [
+{ name: "БУЛ. КН. МАРИЯ ЛУИЗА", onDemand: false },
+{ name: "ЦЕНТРАЛНА ГАРА", onDemand: false },
+{ name: "БУЛ. ХРИСТО БОТЕВ", onDemand: false },
+{ name: "УЛ. СВ. СВ. КИРИЛ И МЕТОДИЙ", onDemand: false },
+{ name: "УЛ. ПИРОТСКА", onDemand: false },
+{ name: "БУЛ. АЛ. СТАМБОЛИЙСКИ", onDemand: false },
+{ name: "ПЛ. РУСКИ ПАМЕТНИК", onDemand: false },
+{ name: "БУЛ. ЦАР БОРИС ІІІ", onDemand: false },
+{ name: "ЦЕНТЪР ПО ХИГИЕНА", onDemand: false },
+{ name: "БУЛ. АКАД. ИВАН ГЕШОВ", onDemand: false },
+{ name: "Ж.К. ИВАН ВАЗОВ", onDemand: false },
+{ name: "УЛ. НИШАВА", onDemand: false },
+{ name: "БУЛ. ГОЦЕ ДЕЛЧЕВ", onDemand: false },
+{ name: "УЛ. КОСТЕНСКИ ВОДОПАД", onDemand: false },
+{ name: "29-ТИ ДКЦ", onDemand: false },
+{ name: "УЛ. ТОДОР КАБЛЕШКОВ", onDemand: false },
+{ name: "Ж.К. ГОЦЕ ДЕЛЧЕВ", onDemand: false },
+                ]
+            },
+            {
+                name: "БУЛ. КНЯГИНЯ МАРИЯ ЛУИЗА",
+                stops: [
+  { name: "Ж.К. ГОЦЕ ДЕЛЧЕВ", onDemand: false },
+  { name: "УЛ. ТОДОР КАБЛЕШКОВ", onDemand: false },
+  { name: "29-ТИ ДКЦ", onDemand: false },
+  { name: "УЛ. КОСТЕНСКИ ВОДОПАД", onDemand: false },
+  { name: "БУЛ. ГОЦЕ ДЕЛЧЕВ", onDemand: false },
+  { name: "УЛ. НИШАВА", onDemand: false },
+  { name: "Ж.К. ИВАН ВАЗОВ", onDemand: false },
+  { name: "БУЛ. АКАД. ИВАН ГЕШОВ", onDemand: false },
+  { name: "ЦЕНТЪР ПО ХИГИЕНА", onDemand: false },
+  { name: "БУЛ. ЦАР БОРИС ІІІ", onDemand: false },
+  { name: "ПЛ. РУСКИ ПАМЕТНИК", onDemand: false },
+  { name: "БУЛ. АЛ. СТАМБОЛИЙСКИ", onDemand: false },
+  { name: "УЛ. ПИРОТСКА", onDemand: false },
+  { name: "УЛ. СВ. СВ. КИРИЛ И МЕТОДИЙ", onDemand: false },
+  { name: "БУЛ. ХРИСТО БОТЕВ", onDemand: false },
+  { name: "ЦЕНТРАЛНА ГАРА", onDemand: false },
+  { name: "БУЛ. КН. МАРИЯ ЛУИЗА", onDemand: false }
+]
+            }
+        ]
+    },
+	"bus-75": {
+        number: "75",
+        type: "bus",
+        directions: [
+            {
+                name: "ПЛ. ОРЛОВ МОСТ",
+                stops: [
+{ name: "АВТОСТАНЦИЯ ГЕО МИЛЕВ", onDemand: false },
+{ name: "ЖК. СЛАТИНА", onDemand: false },
+{ name: "БЛ. 15 ЖЖ. ХР. СМИРНЕНСКИ", onDemand: false },
+{ name: "БЛ. 7 ЖЖ. ХР. СМИРНЕНСКИ", onDemand: false },
+{ name: "БЛ. 33 ЖК. СЛАТИНА", onDemand: false },
+{ name: "УЛ. БОЯН МАГЕСНИК", onDemand: false },
+{ name: "УЛ. ВЕЛЧО АТАНАСОВ", onDemand: false },
+{ name: "ГАРА ПОДУЯНЕ", onDemand: false },
+{ name: "ТЕАТЪР СОФИЯ", onDemand: false },
+{ name: "ВОЕННА АКАДЕМИЯ", onDemand: false },
+{ name: "ПЛ. ОРЛОВ МОСТ", onDemand: false }
+                ]
+            },
+            {
+                name: "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
+                stops: [
+{ name: "ПЛ. ОРЛОВ МОСТ", onDemand: false },
+{ name: "ВОЕННА АКАДЕМИЯ", onDemand: false },
+{ name: "ТЕАТЪР СОФИЯ", onDemand: false },
+{ name: "ГАРА ПОДУЯНЕ", onDemand: false },
+{ name: "УЛ. ВЕЛЧО АТАНАСОВ", onDemand: false },
+{ name: "УЛ. БОЯН МАГЕСНИК", onDemand: false },
+{ name: "БЛ. 33 ЖК. СЛАТИНА", onDemand: false },
+{ name: "БЛ. 7 ЖЖ. ХР. СМИРНЕНСКИ", onDemand: false },
+{ name: "БЛ. 15 ЖЖ. ХР. СМИРНЕНСКИ", onDemand: false },
+{ name: "ЖК. СЛАТИНА", onDemand: false },
+{ name: "АВТОСТАНЦИЯ ГЕО МИЛЕВ", onDemand: false }
+]
+            }
+        ]
+    },
 };
+
 
 
 
