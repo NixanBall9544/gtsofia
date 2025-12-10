@@ -2273,6 +2273,72 @@ const lines = {
             }
         ]
     },
+	"bus-56": {
+        number: "56",
+        type: "bus",
+        directions: [
+            {
+                name: "МАЛО БУЧИНО",
+                stops: [
+{ name: "ГАРА ЗАХАРНА ФАБРИКА", onDemand: false },
+{ name: "УЛ. ХАЙДУТ СИДЕР", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ВАРДАР", onDemand: false },
+{ name: "БЛ. 13 Ж.К. ЗАПАДЕН ПАРК", onDemand: false },
+{ name: "Ж.К. ЗАПАДЕН ПАРК", onDemand: false },
+{ name: "КВ. ФАКУЛТЕТА", onDemand: false },
+{ name: "СЕЛСКОСТОПАНСКА АКАДЕМИЯ", onDemand: false },
+{ name: "МАХАЛА КОНЬОВИЦА", onDemand: false },
+{ name: "УЛ. 746", onDemand: true },
+{ name: "УЛ. МОНТЕВИДЕО", onDemand: false },
+{ name: "ВСУ Л. КАРАВЕЛОВ", onDemand: false },
+{ name: "ПРОСТОР", onDemand: false },
+{ name: "МОСТА НА Р. СТУБЕЛА", onDemand: false },
+{ name: "ОКОЛОВРЪСТЕН ПЪТ", onDemand: false },
+{ name: "ЧИТАЛИЩЕ ПРОСВЕТА", onDemand: false },
+{ name: "ЦЪРКВАТА СВ. ГЕОРГИ", onDemand: false },
+{ name: "УЛ. ПРИЛЕП", onDemand: false },
+{ name: "МИТНИЦА СУХОДОЛ", onDemand: false },
+{ name: "В.З. СУХОДОЛ", onDemand: false },
+{ name: "МЕСТНОСТ МАНИЛОВ ДОЛ", onDemand: false },
+{ name: "ЯЗ. МАЛО БУЧИНО", onDemand: false },
+{ name: "РАЗСАДНИК МАЛО БУЧИНО", onDemand: false },
+{ name: "УЛ. ЛИПА", onDemand: false },
+{ name: "УЛ. ДЕМОКРАЦИЯ", onDemand: false },
+{ name: "СЕЛО МАЛО БУЧИНО", onDemand: false },
+                ]
+            },
+            {
+                name: "ГАРА ЗАХАРНА ФАБРИКА",
+                stops: [
+{ name: "СЕЛО МАЛО БУЧИНО", onDemand: false },
+{ name: "УЛ. ДЕМОКРАЦИЯ", onDemand: false },
+{ name: "УЛ. ЛИПА", onDemand: false },
+{ name: "РАЗСАДНИК МАЛО БУЧИНО", onDemand: false },
+{ name: "ЯЗ. МАЛО БУЧИНО", onDemand: false },
+{ name: "МЕСТНОСТ МАНИЛОВ ДОЛ", onDemand: false },
+{ name: "В.З. СУХОДОЛ", onDemand: false },
+{ name: "МИТНИЦА СУХОДОЛ", onDemand: false },
+{ name: "УЛ. ПРИЛЕП", onDemand: false },
+{ name: "ЦЪРКВАТА СВ. ГЕОРГИ", onDemand: false },
+{ name: "ЧИТАЛИЩЕ ПРОСВЕТА", onDemand: false },
+{ name: "ОКОЛОВРЪСТЕН ПЪТ", onDemand: false },
+{ name: "МОСТА НА Р. СТУБЕЛА", onDemand: false },
+{ name: "ПРОСТОР", onDemand: false },
+{ name: "ВСУ Л. КАРАВЕЛОВ", onDemand: false },
+{ name: "УЛ. МОНТЕВИДЕО", onDemand: false },
+{ name: "УЛ. 746", onDemand: true },
+{ name: "МАХАЛА КОНЬОВИЦА", onDemand: false },
+{ name: "СЕЛСКОСТОПАНСКА АКАДЕМИЯ", onDemand: false },
+{ name: "КВ. ФАКУЛТЕТА", onDemand: false },
+{ name: "Ж.К. ЗАПАДЕН ПАРК", onDemand: false },
+{ name: "БЛ. 13 Ж.К. ЗАПАДЕН ПАРК", onDemand: false },
+{ name: "МЕТРОСТАНЦИЯ ВАРДАР", onDemand: false },
+{ name: "УЛ. ХАЙДУТ СИДЕР", onDemand: false },
+{ name: "ГАРА ЗАХАРНА ФАБРИКА", onDemand: false }
+]
+            }
+        ]
+    },
 	"bus-58": {
         number: "58",
         type: "bus",
@@ -2316,6 +2382,7 @@ const lines = {
         ]
     },
 };
+
 
 
 
