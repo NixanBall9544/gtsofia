@@ -7856,7 +7856,7 @@ const lines = {
     },
 	"metro-1": {
         number: "1",
-        type: "metro",
+        type: "metro-1",
         directions: [
             {
                 name: "БИЗНЕС ПАРК",
@@ -7874,7 +7874,7 @@ const lines = {
     },
 	"metro-2": {
         number: "2",
-        type: "metro",
+        type: "metro-2",
         directions: [
             {
                 name: "ОБЕЛЯ",
@@ -7892,7 +7892,7 @@ const lines = {
     },
 	"metro-3": {
         number: "3",
-        type: "metro",
+        type: "metro-3",
         directions: [
             {
                 name: "ХАДЖИ ДИМИТЪР",
@@ -7910,7 +7910,7 @@ const lines = {
     },
 	"metro-4": {
         number: "4",
-        type: "metro",
+        type: "metro-4",
         directions: [
             {
                 name: "ЛЕТИЩЕ СОФИЯ",
@@ -7927,6 +7927,7 @@ const lines = {
         ]
     },
 };
+
 
 
 
