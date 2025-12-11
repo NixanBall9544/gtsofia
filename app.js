@@ -69,10 +69,13 @@ function showLine(lineKey) {
 
     // Determine color class for metro pill
     let colorClass = '';
-    if (data.type.startsWith("metro")) {
-        colorClass = 'metro' + lineKey;
-        if (!COLORS[colorClass]) colorClass = 'metro1';
-    }
+if (data.type.startsWith("metro")) {
+    // Extract the number from lineKey (e.g., 'metro-1' → '1')
+    const metroLineNumber = lineKey.split('-')[1]; 
+    colorClass = 'metro' + metroLineNumber; // 'metro1', 'metro2', etc.
+    
+    if (!COLORS[colorClass]) colorClass = 'metro1'; // fallback
+}
 
     // Header always shows icon
     // Metro: circle pill next to icon
@@ -109,4 +112,5 @@ function renderStops(stops) {
         container.appendChild(item);
     });
 }
+
 
