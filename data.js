@@ -5238,14 +5238,14 @@ const lines = {
   { name: "УЛ. СТ. ДОСПЕВСКИ", onDemand: false },
   { name: "БЛ. 11 Ж.К. ЛЕВСКИ-В", onDemand: false },
   { name: "БЛ. 28 Ж.К. ЛЕВСКИ-Г", onDemand: false },
-  { name: "БЛ. 10 Ж.К. ЛЕВСКИ-Г", onDemand: false }
+  { name: "БЛ. 10 Ж.К. ЛЕВСКИ-Г", onDemand: false },
   { name: "Ж.К. ЛЕВСКИ-Г", onDemand: false }
                 ]
             },
             {
                 name: "ЗООПАРКА",
                 stops: [
-  { name: "Ж.К. ЛЕВСКИ-Г", onDemand: false }
+  { name: "Ж.К. ЛЕВСКИ-Г", onDemand: false },
   { name: "БЛ. 10 Ж.К. ЛЕВСКИ-Г", onDemand: false },
   { name: "БЛ. 28 Ж.К. ЛЕВСКИ-Г", onDemand: false },
   { name: "БЛ. 11 Ж.К. ЛЕВСКИ-В", onDemand: false },
@@ -6072,6 +6072,7 @@ const lines = {
         ]
     },
 };
+
 
 
 
