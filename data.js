@@ -6387,7 +6387,7 @@ const lines = {
 { name: "ХОТЕЛ-РЕСТОРАНТ", onDemand: false },
 { name: "КОШАРИТЕ", onDemand: false },
 { name: "ПО ЖЕЛАНИЕ", onDemand: true },
-{ name: "ВИЛИТЕ", onDemand: false }
+{ name: "ВИЛИТЕ", onDemand: false },
 { name: "В.З. ЛЮЛИН", onDemand: false }
 ]
             }
@@ -6573,6 +6573,7 @@ const lines = {
         ]
     },
 };
+
 
 
 
