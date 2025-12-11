@@ -7566,7 +7566,368 @@ const lines = {
             }
         ]
     },
+	"tram-1": {
+        number: "1",
+        type: "tram",
+        directions: [
+            {
+                name: "НАДЛЕЗ НАДЕЖДА",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "ИВАН ВАЗОВ",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-3": {
+        number: "3",
+        type: "tram",
+        directions: [
+            {
+                name: "ОРЛАНДОВЦИ",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "ГАРА ЗАХАРНА ФАБРИКА",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-4": {
+        number: "4",
+        type: "tram",
+        directions: [
+            {
+                name: "ОРЛАНДОВЦИ",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "БУЛ. НИКОЛА ПЕТКОВ",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-5": {
+        number: "5",
+        type: "tram",
+        directions: [
+            {
+                name: "КНЯЖЕВО",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "СЪДЕБНА ПАЛАТА",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-6": {
+        number: "6",
+        type: "tram",
+        directions: [
+            {
+                name: "ИВАН ВАЗОВ",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "ОБЕЛЯ 2",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-7": {
+        number: "7",
+        type: "tram",
+        directions: [
+            {
+                name: "МАНАСТИРСКИ ЛИВАДИ - ЗАПАД",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "МЕТРОСТАНЦИЯ ХАН КУБРАТ",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-10": {
+        number: "10",
+        type: "tram",
+        directions: [
+            {
+                name: "МЕТРОСТАНЦИЯ ВИТОША",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "ГАРА ЗАХАРНА ФАБРИКА",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-11": {
+        number: "11",
+        type: "tram",
+        directions: [
+            {
+                name: "КНЯЖЕВО",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "ВРЪБНИЦА 1",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-12": {
+        number: "12",
+        type: "tram",
+        directions: [
+            {
+                name: "ГАРА СОФИЯ СЕВЕР",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "ПЛ. ЖУРНАЛИСТ",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-15": {
+        number: "15",
+        type: "tram",
+        directions: [
+            {
+                name: "БЪКСТОН",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "МЕТРОСТАНЦИЯ ВИТОША",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-18": {
+        number: "18",
+        type: "tram",
+        directions: [
+            {
+                name: "ПЛ. ЖУРНАЛИСТ",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "ОРЛАНДОВЦИ",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-20": {
+        number: "20",
+        type: "tram",
+        directions: [
+            {
+                name: "ДЕПО ИСКЪР",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "МЕТРОСТАНЦИЯ ОПЪЛЧЕНСКА",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-21": {
+        number: "21",
+        type: "tram",
+        directions: [
+            {
+                name: "ГЕО МИЛЕВ",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "МЕТРОСТАНЦИЯ ОПЪЛЧЕНСКА",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-22": {
+        number: "22",
+        type: "tram",
+        directions: [
+            {
+                name: "АВТОСТАНЦИЯ ИЗТОК",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "КРАСНА ПОЛЯНА",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-23": {
+        number: "23",
+        type: "tram",
+        directions: [
+            {
+                name: "УЛ. ОБИКОЛНА",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "ГЕО МИЛЕВ",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"tram-27": {
+        number: "27",
+        type: "tram",
+        directions: [
+            {
+                name: "ГАРА СОФИЯ СЕВЕР",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "МАНАСТИРСКИ ЛИВАДИ - ЗАПАД",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"metro-1": {
+        number: "1",
+        type: "metro",
+        directions: [
+            {
+                name: "БИЗНЕС ПАРК",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "СЛИВНИЦА",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"metro-2": {
+        number: "2",
+        type: "metro",
+        directions: [
+            {
+                name: "ОБЕЛЯ",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "ВИТОША",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"metro-3": {
+        number: "3",
+        type: "metro",
+        directions: [
+            {
+                name: "ХАДЖИ ДИМИТЪР",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "ГОРНА БАНЯ",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
+	"metro-4": {
+        number: "4",
+        type: "metro",
+        directions: [
+            {
+                name: "ЛЕТИЩЕ СОФИЯ",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+                ]
+            },
+            {
+                name: "СЛИВНИЦА",
+                stops: [
+{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+]
+            }
+        ]
+    },
 };
+
 
 
 
