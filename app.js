@@ -15,10 +15,13 @@ function refreshLineList(filter = null) {
 
         // Determine correct color class
         let colorClass = '';
-        if (type.startsWith("metro")) {
-            colorClass = 'metro' + lineKey; // matches CSS classes like metro1, metro2
-            if (!COLORS[colorClass]) colorClass = 'metro1'; // fallback
-        }
+if (type.startsWith("metro")) {
+    // Extract the number from lineKey (e.g., 'metro-1' → '1')
+    const metroLineNumber = lineKey.split('-')[1]; 
+    colorClass = 'metro' + metroLineNumber; // 'metro1', 'metro2', etc.
+    
+    if (!COLORS[colorClass]) colorClass = 'metro1'; // fallback
+}
 
         // Sidebar: pills only
         const pill = document.createElement("div");
@@ -106,3 +109,4 @@ function renderStops(stops) {
         container.appendChild(item);
     });
 }
+
