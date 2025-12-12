@@ -5,6 +5,7 @@ body {
     background: #f5f7fa;
     display: flex;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 /* SIDEBAR */
@@ -211,11 +212,6 @@ body {
         overflow: auto;
     }
 
-        .line-list {
-        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Adjust column width for mobile */
-        width: 100%; /* Ensure grid takes up 100% width */
-    }
-
     /* Sidebar becomes top panel */
     .sidebar {
         width: 100%;
@@ -278,10 +274,6 @@ body {
         padding: 6px 10px;
     }
 
-        .line-list {
-        grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); /* Fewer columns on very small screens */
-    }
-
     .search {
         font-size: 14px;              /* smaller text on small screens */
         padding: 10px 12px;           /* more balanced padding */
@@ -311,6 +303,7 @@ body {
         font-size: 17px;  /* Slightly reduce font size for better fitting */
     }
 }
+
 
 
 
