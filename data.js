@@ -753,6 +753,45 @@ const lines = {
             }
         ]
     },
+	"bus-10TM": {
+        number: "10TM",
+        type: "bus",
+        directions: [
+            {
+                name: "МЕТРОСТАНЦИЯ ВИТОША",
+                stops: [
+                    { name: "СУ СВ. КЛИМЕНТ ОХРИДСКИ", onDemand: false },
+                    { name: "ПЛ. ОРЛОВ МОСТ", onDemand: false },
+                    { name: "БЪЛГАРСКО НАЦИОНАЛНО РАДИО", onDemand: false },
+                    { name: "УЛ. МИТРОПОЛИТ КИРИЛ ВИДИНСКИ", onDemand: false },
+                    { name: "СЕМИНАРИЯТА", onDemand: false },
+                    { name: "УЛ. МИЛИН КАМЪК", onDemand: false },
+                    { name: "ЕНЕРГОПРОЕКТ", onDemand: false },
+                    { name: "ЧИТАЛИЩЕ ПЕНЧО П. СЛАВЕЙКОВ 1921", onDemand: false },
+                    { name: "УЛ. ЛЮБОТРЪН", onDemand: false },
+                    { name: "БУЛ. НИКОЛА ВАПЦАРОВ", onDemand: false },
+                    { name: "МЕТРОСТАНЦИЯ ВИТОША", onDemand: false },
+                ]
+            },
+            {
+                name: "СУ СВ. КЛИМЕНТ ОХРИДСКИ",
+                stops: [
+                    { name: "МЕТРОСТАНЦИЯ ВИТОША", onDemand: false },
+                    { name: "БУЛ. НИКОЛА ВАПЦАРОВ", onDemand: false },
+                    { name: "УЛ. ЛЮБОТРЪН", onDemand: false },
+                    { name: "ЧИТАЛИЩЕ ПЕНЧО П. СЛАВЕЙКОВ 1921", onDemand: false },
+                    { name: "ЕНЕРГОПРОЕКТ", onDemand: false },
+                    { name: "УЛ. МИЛИН КАМЪК", onDemand: false },
+                    { name: "СЕМИНАРИЯТА", onDemand: false },
+                    { name: "УЛ. МИТРОПОЛИТ КИРИЛ ВИДИНСКИ", onDemand: false },
+                    { name: "БЪЛГАРСКО НАЦИОНАЛНО РАДИО", onDemand: false },
+                    { name: "УЛ. ГРАФ ИГНАТИЕВ", onDemand: false },
+                    { name: "УЛ. ГЕНЕРАЛ ГУРКО", onDemand: false },
+                    { name: "СУ СВ. КЛИМЕНТ ОХРИДСКИ", onDemand: false },
+                ]
+            }
+        ]
+    },
 	"bus-11": {
         number: "11",
         type: "bus",
@@ -7861,13 +7900,43 @@ const lines = {
             {
                 name: "БИЗНЕС ПАРК",
                 stops: [
-{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+{ name: "СЛИВНИЦА", onDemand: false },
+{ name: "ЛЮЛИН", onDemand: false },
+{ name: "ЗАПАДЕН ПАРК", onDemand: false },
+{ name: "ВАРДАР", onDemand: false },
+{ name: "КОНСТАНТИН ВЕЛИЧКОВ", onDemand: false },
+{ name: "ОПЪЛЧЕНСКА", onDemand: false },
+{ name: "СЕРДИКА", onDemand: false },
+{ name: "СУ „СВ. КЛИМЕНТ ОХРИДСКИ“", onDemand: false },
+{ name: "СТАДИОН ВАСИЛ ЛЕВСКИ", onDemand: false },
+{ name: "ЖОЛИО КЮРИ", onDemand: false },
+{ name: "Г. М. ДИМИТРОВ", onDemand: false },
+{ name: "МУСАГЕНИЦА", onDemand: false },
+{ name: "МЛАДОСТ 1", onDemand: false },
+{ name: "АЛЕКСАНДЪР МАЛИНОВ", onDemand: false },
+{ name: "АЛЕКСАНДЪР ТЕОДОРОВ - БАЛАН", onDemand: false },
+{ name: "БИЗНЕС ПАРК СОФИЯ", onDemand: false },
                 ]
             },
             {
                 name: "СЛИВНИЦА",
                 stops: [
-{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+{ name: "БИЗНЕС ПАРК СОФИЯ", onDemand: false },
+{ name: "АЛЕКСАНДЪР ТЕОДОРОВ - БАЛАН", onDemand: false },
+{ name: "АЛЕКСАНДЪР МАЛИНОВ", onDemand: false },
+{ name: "МЛАДОСТ 1", onDemand: false },
+{ name: "МУСАГЕНИЦА", onDemand: false },
+{ name: "Г. М. ДИМИТРОВ", onDemand: false },
+{ name: "ЖОЛИО КЮРИ", onDemand: false },
+{ name: "СТАДИОН ВАСИЛ ЛЕВСКИ", onDemand: false },
+{ name: "СУ „СВ. КЛИМЕНТ ОХРИДСКИ“", onDemand: false },
+{ name: "СЕРДИКА", onDemand: false },
+{ name: "ОПЪЛЧЕНСКА", onDemand: false },
+{ name: "КОНСТАНТИН ВЕЛИЧКОВ", onDemand: false },
+{ name: "ВАРДАР", onDemand: false },
+{ name: "ЗАПАДЕН ПАРК", onDemand: false },
+{ name: "ЛЮЛИН", onDemand: false },
+{ name: "СЛИВНИЦА", onDemand: false },
 ]
             }
         ]
@@ -7879,13 +7948,37 @@ const lines = {
             {
                 name: "ОБЕЛЯ",
                 stops: [
-{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+{ name: "ВИТОША", onDemand: false },
+{ name: "ДЖЕЙМС БАУЧЕР", onDemand: false },
+{ name: "ЕВРОПЕЙСКИ СЪЮЗ", onDemand: false },
+{ name: "НАЦИОНАЛЕН ДВОРЕЦ НА КУЛТУРАТА", onDemand: false },
+{ name: "СЕРДИКА II", onDemand: false },
+{ name: "ЛЪВОВ МОСТ", onDemand: false },
+{ name: "ЦЕНТРАЛНА ЖП ГАРА", onDemand: false },
+{ name: "КНЯГИНЯ МАРИЯ ЛУИЗА", onDemand: false },
+{ name: "ХАН КУБРАТ", onDemand: false },
+{ name: "НАДЕЖДА", onDemand: false },
+{ name: "БЕЛИ ДУНАВ", onDemand: false },
+{ name: "ЛОМСКО ШОСЕ", onDemand: false },
+{ name: "ОБЕЛЯ", onDemand: false },
                 ]
             },
             {
                 name: "ВИТОША",
                 stops: [
-{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+{ name: "ОБЕЛЯ", onDemand: false },
+{ name: "ЛОМСКО ШОСЕ", onDemand: false },
+{ name: "БЕЛИ ДУНАВ", onDemand: false },
+{ name: "НАДЕЖДА", onDemand: false },
+{ name: "ХАН КУБРАТ", onDemand: false },
+{ name: "КНЯГИНЯ МАРИЯ ЛУИЗА", onDemand: false },
+{ name: "ЦЕНТРАЛНА ЖП ГАРА", onDemand: false },
+{ name: "ЛЪВОВ МОСТ", onDemand: false },
+{ name: "СЕРДИКА II", onDemand: false },
+{ name: "НАЦИОНАЛЕН ДВОРЕЦ НА КУЛТУРАТА", onDemand: false },
+{ name: "ЕВРОПЕЙСКИ СЪЮЗ", onDemand: false },
+{ name: "ДЖЕЙМС БАУЧЕР", onDemand: false },
+{ name: "ВИТОША", onDemand: false },
 ]
             }
         ]
@@ -7897,13 +7990,35 @@ const lines = {
             {
                 name: "ХАДЖИ ДИМИТЪР",
                 stops: [
-{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+{ name: "ГОРНА БАНЯ", onDemand: false },
+{ name: "ОВЧА КУПЕЛ II", onDemand: false },
+{ name: "МИЗИЯ", onDemand: false },
+{ name: "ОВЧА КУПЕЛ", onDemand: false },
+{ name: "БУЛ. ЦАР БОРИС III / КРАСНО СЕЛО", onDemand: false },
+{ name: "БЪЛГАРИЯ", onDemand: false },
+{ name: "МЕДИЦИНСКИ УНИВЕРСИТЕТ", onDemand: false },
+{ name: "НАЦИОНАЛЕН ДВОРЕЦ НА КУЛТУРАТА II", onDemand: false },
+{ name: "СВ. ПАТРИАРХ ЕВТИМИЙ", onDemand: false },
+{ name: "ОРЛОВ МОСТ", onDemand: false },
+{ name: "ТЕАТРАЛНА", onDemand: false },
+{ name: "ХАДЖИ ДИМИТЪР", onDemand: false },
                 ]
             },
             {
                 name: "ГОРНА БАНЯ",
                 stops: [
-{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+{ name: "ХАДЖИ ДИМИТЪР", onDemand: false },
+{ name: "ТЕАТРАЛНА", onDemand: false },
+{ name: "ОРЛОВ МОСТ", onDemand: false },
+{ name: "СВ. ПАТРИАРХ ЕВТИМИЙ", onDemand: false },
+{ name: "НАЦИОНАЛЕН ДВОРЕЦ НА КУЛТУРАТА II", onDemand: false },
+{ name: "МЕДИЦИНСКИ УНИВЕРСИТЕТ", onDemand: false },
+{ name: "БЪЛГАРИЯ", onDemand: false },
+{ name: "БУЛ. ЦАР БОРИС III / КРАСНО СЕЛО", onDemand: false },
+{ name: "ОВЧА КУПЕЛ", onDemand: false },
+{ name: "МИЗИЯ", onDemand: false },
+{ name: "ОВЧА КУПЕЛ II", onDemand: false },
+{ name: "ГОРНА БАНЯ", onDemand: false },
 ]
             }
         ]
@@ -7915,18 +8030,55 @@ const lines = {
             {
                 name: "ЛЕТИЩЕ СОФИЯ",
                 stops: [
-{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+{ name: "СЛИВНИЦА", onDemand: false },
+{ name: "ЛЮЛИН", onDemand: false },
+{ name: "ЗАПАДЕН ПАРК", onDemand: false },
+{ name: "ВАРДАР", onDemand: false },
+{ name: "КОНСТАНТИН ВЕЛИЧКОВ", onDemand: false },
+{ name: "ОПЪЛЧЕНСКА", onDemand: false },
+{ name: "СЕРДИКА", onDemand: false },
+{ name: "СУ „СВ. КЛИМЕНТ ОХРИДСКИ“", onDemand: false },
+{ name: "СТАДИОН ВАСИЛ ЛЕВСКИ", onDemand: false },
+{ name: "ЖОЛИО КЮРИ", onDemand: false },
+{ name: "Г. М. ДИМИТРОВ", onDemand: false },
+{ name: "МУСАГЕНИЦА", onDemand: false },
+{ name: "МЛАДОСТ 1", onDemand: false },
+{ name: "МЛАДОСТ 3", onDemand: false },
+{ name: "ИЕЦ ЦАРИГРАДСКО ШОСЕ", onDemand: false },
+{ name: "ДРУЖБА", onDemand: false },
+{ name: "ИСКЪРСКО ШОСЕ", onDemand: false },
+{ name: "СОФИЙСКА СВЕТА ГОРА", onDemand: false },
+{ name: "ЛЕТИЩЕ СОФИЯ", onDemand: false },
                 ]
             },
             {
                 name: "СЛИВНИЦА",
                 stops: [
-{ name: "ПЛ. СТОЧНА ГАРА", onDemand: false },
+{ name: "ЛЕТИЩЕ СОФИЯ", onDemand: false },
+{ name: "СОФИЙСКА СВЕТА ГОРА", onDemand: false },
+{ name: "ИСКЪРСКО ШОСЕ", onDemand: false },
+{ name: "ДРУЖБА", onDemand: false },
+{ name: "ИЕЦ ЦАРИГРАДСКО ШОСЕ", onDemand: false },
+{ name: "МЛАДОСТ 3", onDemand: false },
+{ name: "МЛАДОСТ 1", onDemand: false },
+{ name: "МУСАГЕНИЦА", onDemand: false },
+{ name: "Г. М. ДИМИТРОВ", onDemand: false },
+{ name: "ЖОЛИО КЮРИ", onDemand: false },
+{ name: "СТАДИОН ВАСИЛ ЛЕВСКИ", onDemand: false },
+{ name: "СУ „СВ. КЛИМЕНТ ОХРИДСКИ“", onDemand: false },
+{ name: "СЕРДИКА", onDemand: false },
+{ name: "ОПЪЛЧЕНСКА", onDemand: false },
+{ name: "КОНСТАНТИН ВЕЛИЧКОВ", onDemand: false },
+{ name: "ВАРДАР", onDemand: false },
+{ name: "ЗАПАДЕН ПАРК", onDemand: false },
+{ name: "ЛЮЛИН", onDemand: false },
+{ name: "СЛИВНИЦА", onDemand: false },
 ]
             }
         ]
     },
 };
+
 
 
 
