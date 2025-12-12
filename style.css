@@ -190,46 +190,14 @@ body {
     content: "";
     position: absolute;
     top: 50%;
-    left: -18.5px;  /* Center the circle along the vertical line */
+    left: -18.5px;
     transform: translate(-50%, -50%);
     width: 12px;
     height: 12px;
-    border: 2px solid black;  /* Circle border color */
-    border-radius: 50%;  /* Make it circular */
-    background: white;  /* Circle background color */
-    z-index: 2;  /* Make sure the circle is above the vertical line */
-}
-
-/* Combine vertical line and circle markers for a cleaner approach */
-.stop-item::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: -20px; /* Align the circle and vertical line together */
-    transform: translate(-50%, -50%);
-    width: 12px;
-    height: 12px;
-    border: 2px solid black; /* Circle border */
-    border-radius: 50%; /* Circular shape for stops */
-    background: white; /* Circle background */
-    z-index: 2; /* Circle above vertical line */
-}
-
-/* Adjust vertical line to be part of the same rule for cleaner implementation */
-.stops::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 20px;  /* Position the line */
-    width: 3px;  /* Vertical line thickness */
-    background: repeating-linear-gradient(
-        to bottom,
-        #ccc,
-        #ccc 4px, /* Spacing of the stops */
-        transparent 4px,
-        transparent 8px /* Creating dashed effect */
-    );
+    border: 2px solid black;
+    border-radius: 50%;
+    background: white;
+    z-index: 2;
 }
 
 /* ---------------------------- */
@@ -284,6 +252,12 @@ body {
     .line-header-icon {
         gap: 6px;
     }
+
+        .metro-pill {
+        width: 40px;  /* Increase size slightly for mobile */
+        height: 40px; /* Ensure it stays proportional */
+        font-size: 18px;  /* Adjust font size to fit inside */
+    }
 }
 
 @media (max-width: 480px) {
@@ -313,12 +287,9 @@ body {
         width: 60px;   /* original width */
         height: 30px;  /* original height */
     }
+    .metro-pill {
+        width: 35px;  /* Adjust to fit better on very small screens */
+        height: 35px;
+        font-size: 16px;  /* Slightly reduce font size for better fitting */
+    }
 }
-
-
-
-
-
-
-
-
