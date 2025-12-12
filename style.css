@@ -254,9 +254,9 @@ body {
     }
 
         .metro-pill {
-        width: 40px;  /* Increase size slightly for mobile */
-        height: 40px; /* Ensure it stays proportional */
-        font-size: 18px;  /* Adjust font size to fit inside */
+        width: 30px;  /* Increase size slightly for mobile */
+        height: 30px; /* Ensure it stays proportional */
+        font-size: 17px;  /* Adjust font size to fit inside */
     }
 }
 
@@ -288,8 +288,9 @@ body {
         height: 30px;  /* original height */
     }
     .metro-pill {
-        width: 35px;  /* Adjust to fit better on very small screens */
-        height: 35px;
-        font-size: 16px;  /* Slightly reduce font size for better fitting */
+        width: 30px;  /* Adjust to fit better on very small screens */
+        height: 30px;
+        font-size: 17px;  /* Slightly reduce font size for better fitting */
     }
 }
+
