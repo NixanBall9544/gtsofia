@@ -7,6 +7,16 @@ body {
     min-height: 100vh;
 }
 
+body, html {
+    overflow-x: hidden;  /* Prevent any horizontal overflow */
+    margin: 0;            /* Ensure no default margins are causing overflow */
+}
+
+/* Prevent content from spilling over */
+.content, .sidebar {
+    overflow-x: hidden;  /* Hide any horizontal overflow */
+}
+
 /* SIDEBAR */
 .sidebar {
     width: 300px;
@@ -302,5 +312,6 @@ body {
         font-size: 17px;  /* Slightly reduce font size for better fitting */
     }
 }
+
 
 
