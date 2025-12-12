@@ -190,14 +190,46 @@ body {
     content: "";
     position: absolute;
     top: 50%;
-    left: -18.5px;
+    left: -18.5px;  /* Center the circle along the vertical line */
     transform: translate(-50%, -50%);
     width: 12px;
     height: 12px;
-    border: 2px solid black;
-    border-radius: 50%;
-    background: white;
-    z-index: 2;
+    border: 2px solid black;  /* Circle border color */
+    border-radius: 50%;  /* Make it circular */
+    background: white;  /* Circle background color */
+    z-index: 2;  /* Make sure the circle is above the vertical line */
+}
+
+/* Combine vertical line and circle markers for a cleaner approach */
+.stop-item::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px; /* Align the circle and vertical line together */
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    border: 2px solid black; /* Circle border */
+    border-radius: 50%; /* Circular shape for stops */
+    background: white; /* Circle background */
+    z-index: 2; /* Circle above vertical line */
+}
+
+/* Adjust vertical line to be part of the same rule for cleaner implementation */
+.stops::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;  /* Position the line */
+    width: 3px;  /* Vertical line thickness */
+    background: repeating-linear-gradient(
+        to bottom,
+        #ccc,
+        #ccc 4px, /* Spacing of the stops */
+        transparent 4px,
+        transparent 8px /* Creating dashed effect */
+    );
 }
 
 /* ---------------------------- */
@@ -282,6 +314,7 @@ body {
         height: 30px;  /* original height */
     }
 }
+
 
 
 
