@@ -7,16 +7,6 @@ body {
     min-height: 100vh;
 }
 
-body, html {
-    overflow-x: hidden;  /* Prevent any horizontal overflow */
-    margin: 0;            /* Ensure no default margins are causing overflow */
-}
-
-/* Prevent content from spilling over */
-.content, .sidebar {
-    overflow-x: hidden;  /* Hide any horizontal overflow */
-}
-
 /* SIDEBAR */
 .sidebar {
     width: 300px;
@@ -221,6 +211,11 @@ body, html {
         overflow: auto;
     }
 
+        .line-list {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Adjust column width for mobile */
+        width: 100%; /* Ensure grid takes up 100% width */
+    }
+
     /* Sidebar becomes top panel */
     .sidebar {
         width: 100%;
@@ -283,6 +278,10 @@ body, html {
         padding: 6px 10px;
     }
 
+        .line-list {
+        grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); /* Fewer columns on very small screens */
+    }
+
     .search {
         font-size: 14px;              /* smaller text on small screens */
         padding: 10px 12px;           /* more balanced padding */
@@ -312,6 +311,7 @@ body, html {
         font-size: 17px;  /* Slightly reduce font size for better fitting */
     }
 }
+
 
 
 
