@@ -26,7 +26,7 @@ body {
 .search {
     padding: 10px 12px;
     font-size: 15px;
-    border-radius: 8px;
+    border-radius: 6px;
     border: 1px solid #bbb;
     outline: none;
 }
@@ -242,11 +242,16 @@ body {
         font-size: 20px !important;
     }
 
-        .search {
-        font-size: 16px;         /* slightly larger text on mobile */
-        padding: 12px 15px;      /* adjust padding for easier tapping */
-        width: 100%;             /* make sure it fills the screen */
-        border-radius: 6px;      /* reduce border-radius for a more compact look */
+    .search {
+        font-size: 16px;              /* slightly larger text on mobile */
+        padding: 12px 15px;           /* adjust padding for easier tapping */
+        width: 100%;                  /* make sure it fills the screen */
+        border-radius: 6px;           /* reduce border-radius for a more compact look */
+        box-sizing: border-box;       /* Ensures padding doesn't affect width */
+        border: 1px solid #bbb;       /* consistent border style */
+        outline: none;                /* removes default outline on focus */
+        background-color: #fff;       /* clear background */
+        margin-bottom: 15px;          /* space below search box */
     }
 
     .line-header-icon {
@@ -268,10 +273,14 @@ body {
         padding: 6px 10px;
     }
 
-        .search {
-        font-size: 14px;         /* smaller text on small screens */
-        padding: 10px 12px;      /* more balanced padding */
-        width: 100%;             /* full-width search bar */
+    .search {
+        font-size: 14px;              /* smaller text on small screens */
+        padding: 10px 12px;           /* more balanced padding */
+        width: 100%;                  /* full-width search bar */
+        border-radius: 6px;           /* consistent border-radius */
+        box-sizing: border-box;       /* padding doesn't affect width */
+        background-color: #fff;       /* keeps the background clean */
+        margin-bottom: 15px;          /* provides space below */
     }
 
     .search {
@@ -293,4 +302,5 @@ body {
         font-size: 17px;  /* Slightly reduce font size for better fitting */
     }
 }
+
 
