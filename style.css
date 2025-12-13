@@ -163,67 +163,50 @@ body {
 .stops {
     position: relative;
     padding-left: 40px;
-    height: 100%; /* Ensure the container takes full height */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
-/* Long vertical line connecting stops */
 .stops::before {
     content: "";
     position: absolute;
     top: 0;
-    left: 20px;  /* Position of the line */
-    width: 3px;  /* Width of the long connecting line */
-    height: 100%; /* Span the entire height of the container */
-    z-index: 1;
+    bottom: 0;
+    left: 20px;
+    width: 3px;
+    background: repeating-linear-gradient(
+        to bottom,
+        #ccc,
+        #ccc 4px,
+        transparent 4px,
+        transparent 8px
+    );
 }
 
-/* Transport color for the long line */
-.stops.metro1::before { background-color: #ec2029; }
-.stops.metro2::before { background-color: #1077bc; }
-.stops.metro3::before { background-color: #3bb44b; }
-.stops.metro4::before { background-color: #fcd403; }
-.stops.tram::before { background-color: #F7941F; }
-.stops.trolley::before { background-color: #2AA9E0; }
-.stops.bus::before { background-color: #BD202E; }
-.stops.nightbus::before { background-color: #000000; }
-
-/* Individual stop items with colored vertical lines */
 .stop-item {
     position: relative;
     margin: 24px 0;
     font-size: 17px;
 }
 
-/* Vertical line for each stop marker */
 .stop-item::before {
     content: "";
     position: absolute;
     top: 50%;
-    left: -18px;
+    left: -18.5px;
     transform: translate(-50%, -50%);
-    width: 3px;  /* Width of the stop line */
-    height: 15px;  /* Height of the line */
+    width: 12px;
+    height: 12px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: white;
     z-index: 2;
 }
-
-/* Transport color for stop markers */
-.stop-item.metro1::before { background-color: #ec2029; }
-.stop-item.metro2::before { background-color: #1077bc; }
-.stop-item.metro3::before { background-color: #3bb44b; }
-.stop-item.metro4::before { background-color: #fcd403; }
-.stop-item.tram::before { background-color: #F7941F; }
-.stop-item.trolley::before { background-color: #2AA9E0; }
-.stop-item.bus::before { background-color: #BD202E; }
-.stop-item.nightbus::before { background-color: #000000; }
 
 /* ---------------------------- */
 /*        MOBILE MODE           */
 /* ---------------------------- */
 
 @media (max-width: 900px) {
+
     body {
         flex-direction: column;
         overflow: auto;
@@ -276,7 +259,7 @@ body {
         gap: 6px;
     }
 
-    .metro-pill {
+        .metro-pill {
         width: 30px;  /* Increase size slightly for mobile */
         height: 30px; /* Ensure it stays proportional */
         font-size: 17px;  /* Adjust font size to fit inside */
@@ -284,6 +267,7 @@ body {
 }
 
 @media (max-width: 480px) {
+
     /* Improve tap spacing */
     .filter-btn {
         font-size: 13px;
@@ -300,6 +284,11 @@ body {
         margin-bottom: 15px;          /* provides space below */
     }
 
+    .search {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
     .line-list {
         grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
     }
@@ -314,3 +303,9 @@ body {
         font-size: 17px;  /* Slightly reduce font size for better fitting */
     }
 }
+
+
+
+
+
+
