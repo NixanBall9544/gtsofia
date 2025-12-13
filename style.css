@@ -163,26 +163,24 @@ body {
 .stops {
     position: relative;
     padding-left: 40px;
-    overflow: hidden; /* Ensure the vertical line doesn't overflow the container */
+    height: 100%; /* Ensure the container takes full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-.stops.metro1::before,
-.stops.metro2::before,
-.stops.metro3::before,
-.stops.metro4::before,
-.stops.tram::before,
-.stops.trolley::before,
-.stops.bus::before,
-.stops.nightbus::before {
+/* Long vertical line connecting stops */
+.stops::before {
     content: "";
     position: absolute;
     top: 0;
-    bottom: 0;
     left: 20px;  /* Position of the line */
     width: 3px;  /* Width of the long connecting line */
+    height: 100%; /* Span the entire height of the container */
     z-index: 1;
 }
 
+/* Transport color for the long line */
 .stops.metro1::before { background-color: #ec2029; }
 .stops.metro2::before { background-color: #1077bc; }
 .stops.metro3::before { background-color: #3bb44b; }
@@ -211,6 +209,7 @@ body {
     z-index: 2;
 }
 
+/* Transport color for stop markers */
 .stop-item.metro1::before { background-color: #ec2029; }
 .stop-item.metro2::before { background-color: #1077bc; }
 .stop-item.metro3::before { background-color: #3bb44b; }
