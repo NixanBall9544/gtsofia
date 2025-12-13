@@ -163,19 +163,34 @@ body {
 .stops {
     position: relative;
     padding-left: 40px;
+    overflow: hidden; /* Ensure the vertical line doesn't overflow the container */
 }
 
-/* New vertical line connecting all stops */
-.stops::before {
+.stops.metro1::before,
+.stops.metro2::before,
+.stops.metro3::before,
+.stops.metro4::before,
+.stops.tram::before,
+.stops.trolley::before,
+.stops.bus::before,
+.stops.nightbus::before {
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 20px; /* Position of the line */
-    width: 3px; /* Adjust width of the long connecting line */
-    background-color: currentColor; /* Color will be based on transport type */
+    left: 20px;  /* Position of the line */
+    width: 3px;  /* Width of the long connecting line */
     z-index: 1;
 }
+
+.stops.metro1::before { background-color: #ec2029; }
+.stops.metro2::before { background-color: #1077bc; }
+.stops.metro3::before { background-color: #3bb44b; }
+.stops.metro4::before { background-color: #fcd403; }
+.stops.tram::before { background-color: #F7941F; }
+.stops.trolley::before { background-color: #2AA9E0; }
+.stops.bus::before { background-color: #BD202E; }
+.stops.nightbus::before { background-color: #000000; }
 
 /* Individual stop items with colored vertical lines */
 .stop-item {
@@ -192,51 +207,24 @@ body {
     left: -18px;
     transform: translate(-50%, -50%);
     width: 3px;  /* Width of the stop line */
-    height: 15px;  /* Adjust the height of the line */
-    background-color: currentColor; /* Line color will reflect transport type */
+    height: 15px;  /* Height of the line */
     z-index: 2;
 }
 
-/* Transport color assignment for each stop */
-.metro1 .stops::before,
-.metro1 .stop-item::before {
-    color: #ec2029; /* Metro 1 color */
-}
-.metro2 .stops::before,
-.metro2 .stop-item::before {
-    color: #1077bc; /* Metro 2 color */
-}
-.metro3 .stops::before,
-.metro3 .stop-item::before {
-    color: #3bb44b; /* Metro 3 color */
-}
-.metro4 .stops::before,
-.metro4 .stop-item::before {
-    color: #fcd403; /* Metro 4 color */
-}
-.tram .stops::before,
-.tram .stop-item::before {
-    color: #F7941F; /* Tram color */
-}
-.trolley .stops::before,
-.trolley .stop-item::before {
-    color: #2AA9E0; /* Trolley color */
-}
-.bus .stops::before,
-.bus .stop-item::before {
-    color: #BD202E; /* Bus color */
-}
-.nightbus .stops::before,
-.nightbus .stop-item::before {
-    color: #000000; /* Night bus color */
-}
+.stop-item.metro1::before { background-color: #ec2029; }
+.stop-item.metro2::before { background-color: #1077bc; }
+.stop-item.metro3::before { background-color: #3bb44b; }
+.stop-item.metro4::before { background-color: #fcd403; }
+.stop-item.tram::before { background-color: #F7941F; }
+.stop-item.trolley::before { background-color: #2AA9E0; }
+.stop-item.bus::before { background-color: #BD202E; }
+.stop-item.nightbus::before { background-color: #000000; }
 
 /* ---------------------------- */
 /*        MOBILE MODE           */
 /* ---------------------------- */
 
 @media (max-width: 900px) {
-
     body {
         flex-direction: column;
         overflow: auto;
@@ -297,7 +285,6 @@ body {
 }
 
 @media (max-width: 480px) {
-
     /* Improve tap spacing */
     .filter-btn {
         font-size: 13px;
@@ -312,11 +299,6 @@ body {
         box-sizing: border-box;       /* padding doesn't affect width */
         background-color: #fff;       /* keeps the background clean */
         margin-bottom: 15px;          /* provides space below */
-    }
-
-    .search {
-        font-size: 14px;
-        padding: 8px 10px;
     }
 
     .line-list {
