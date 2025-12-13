@@ -193,12 +193,36 @@ body {
     top: 50%;
     left: -18.5px;
     transform: translate(-50%, -50%);
-    width: 12px;
-    height: 12px;
-    border: 2px solid black;
-    border-radius: 50%;
-    background: white;
+    width: 3px;
+    height: 15px; /* Adjust the height of the vertical line */
+    background-color: currentColor;  /* Color of the transport type will be applied here */
     z-index: 2;
+}
+
+/* Transport color assignment for each stop */
+.metro1 .stop-item::before {
+    color: #ec2029; /* Metro 1 color */
+}
+.metro2 .stop-item::before {
+    color: #1077bc; /* Metro 2 color */
+}
+.metro3 .stop-item::before {
+    color: #3bb44b; /* Metro 3 color */
+}
+.metro4 .stop-item::before {
+    color: #fcd403; /* Metro 4 color */
+}
+.tram .stop-item::before {
+    color: #F7941F; /* Tram color */
+}
+.trolley .stop-item::before {
+    color: #2AA9E0; /* Trolley color */
+}
+.bus .stop-item::before {
+    color: #BD202E; /* Bus color */
+}
+.nightbus .stop-item::before {
+    color: #000000; /* Night bus color */
 }
 
 /* ---------------------------- */
@@ -259,7 +283,7 @@ body {
         gap: 6px;
     }
 
-        .metro-pill {
+    .metro-pill {
         width: 30px;  /* Increase size slightly for mobile */
         height: 30px; /* Ensure it stays proportional */
         font-size: 17px;  /* Adjust font size to fit inside */
@@ -303,8 +327,3 @@ body {
         font-size: 17px;  /* Slightly reduce font size for better fitting */
     }
 }
-
-
-
-
-
