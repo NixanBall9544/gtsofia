@@ -165,46 +165,68 @@ body {
     padding-left: 40px;
 }
 
+/* New vertical line connecting all stops */
+.stops::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px; /* Position of the line */
+    width: 3px; /* Adjust width of the long connecting line */
+    background-color: currentColor; /* Color will be based on transport type */
+    z-index: 1;
+}
+
+/* Individual stop items with colored vertical lines */
 .stop-item {
     position: relative;
     margin: 24px 0;
     font-size: 17px;
 }
 
-/* New vertical line for stops */
+/* Vertical line for each stop marker */
 .stop-item::before {
     content: "";
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 50%;
     left: -18px;
-    width: 3px;  /* Adjust width of the line */
-    background-color: currentColor;  /* Color of transport type */
+    transform: translate(-50%, -50%);
+    width: 3px;  /* Width of the stop line */
+    height: 15px;  /* Adjust the height of the line */
+    background-color: currentColor; /* Line color will reflect transport type */
     z-index: 2;
 }
 
 /* Transport color assignment for each stop */
+.metro1 .stops::before,
 .metro1 .stop-item::before {
     color: #ec2029; /* Metro 1 color */
 }
+.metro2 .stops::before,
 .metro2 .stop-item::before {
     color: #1077bc; /* Metro 2 color */
 }
+.metro3 .stops::before,
 .metro3 .stop-item::before {
     color: #3bb44b; /* Metro 3 color */
 }
+.metro4 .stops::before,
 .metro4 .stop-item::before {
     color: #fcd403; /* Metro 4 color */
 }
+.tram .stops::before,
 .tram .stop-item::before {
     color: #F7941F; /* Tram color */
 }
+.trolley .stops::before,
 .trolley .stop-item::before {
     color: #2AA9E0; /* Trolley color */
 }
+.bus .stops::before,
 .bus .stop-item::before {
     color: #BD202E; /* Bus color */
 }
+.nightbus .stops::before,
 .nightbus .stop-item::before {
     color: #000000; /* Night bus color */
 }
