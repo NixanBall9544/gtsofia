@@ -165,37 +165,21 @@ body {
     padding-left: 40px;
 }
 
-.stops::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 20px;
-    width: 3px;
-    background: repeating-linear-gradient(
-        to bottom,
-        #ccc,
-        #ccc 4px,
-        transparent 4px,
-        transparent 8px
-    );
-}
-
 .stop-item {
     position: relative;
     margin: 24px 0;
     font-size: 17px;
 }
 
+/* New vertical line for stops */
 .stop-item::before {
     content: "";
     position: absolute;
-    top: 50%;
-    left: -18.5px;
-    transform: translate(-50%, -50%);
-    width: 3px;
-    height: 15px; /* Adjust the height of the vertical line */
-    background-color: currentColor;  /* Color of the transport type will be applied here */
+    top: 0;
+    bottom: 0;
+    left: -18px;
+    width: 3px;  /* Adjust width of the line */
+    background-color: currentColor;  /* Color of transport type */
     z-index: 2;
 }
 
